@@ -1,0 +1,91 @@
+*{
+    list-style: none;
+}
+
+
+.contain-footer {
+    padding: 1rem;
+    background: #222222;
+}
+.letters-credit{
+    text-align: center;
+    margin-top: 2rem;
+}
+.list-carrousel-verticales{
+    list-style: none;
+}
+.list-carrousel-verticales img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.layout-footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.marcas, .soporte, .redes{
+    width: 33.3%;
+} 
+
+.soporte, .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.soporte div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soporte li{
+    
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+   
+}
+
+
+
+.soporte h3, .redes h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.principal-mar img{
+    width: 100%;
+}
+.layout-redes{
+    display: flex;
+    justify-content: space-around;
+}
+.red img {
+    width: 80px;
+}
+
+@media screen and (max-width:850px) {
+    .red img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .layout-footer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .marcas, .soporte, .redes {
+        width: 100%;
+    }
+    .red img {
+        width: 60px;
+    }
+}

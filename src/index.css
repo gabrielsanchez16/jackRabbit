@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -53,7 +57,7 @@
 
 
 .grid_cardHomeTurism {
-  margin: 10px 20px !important;
+  margin: 10px 10px !important;
 }
 
 

@@ -51,6 +51,11 @@
    
 }
 
+.soporte li a {
+    display: flex;
+    align-items: center;
+}
+
 
 
 .soporte h3, .redes h3 {

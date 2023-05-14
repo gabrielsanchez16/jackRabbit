@@ -1,0 +1,24 @@
+.content-aboutUs{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contain-description{
+    margin: 2rem 0;
+    background-color:  #222222;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contain-description h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1100px) {
+    .content-aboutUs{
+        width: 95%;
+    }
+}

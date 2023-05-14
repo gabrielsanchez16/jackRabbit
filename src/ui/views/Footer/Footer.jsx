@@ -14,8 +14,8 @@ import facebook from './assets/img/facebook.png'
 import instagram from './assets/img/instagram.png'
 import whatsapp from './assets/img/whatsapp.webp'
 
-import jackRabbitRun from '../../assets/logo.png'
-import { Whatsapp, CallCalling, MessageQuestion} from 'iconsax-react'
+import jackRabbitRun from '../../assets/logo/logo.png'
+import { Whatsapp, CallCalling, MessageQuestion } from 'iconsax-react'
 
 
 const MotionConstraints = styled(motion.div)`
@@ -100,9 +100,13 @@ const Footer = () => {
           <h3>Soporte</h3>
           <div>
             <ul>
-              <li><Whatsapp size="32" color="#FF8A65"/> Escribenos</li>
-              <li><CallCalling size="32" color="#FF8A65"/>Llamanos</li>
-              <li><MessageQuestion size="32" color="#FF8A65"/>Preguntas Frecuentes</li>
+              <li>
+                <a href="https://wa.link/ozg120">
+                  <Whatsapp size="32" color="#FF8A65" /> Escribenos
+                </a>
+              </li>
+              <li><CallCalling size="32" color="#FF8A65" />Llamanos</li>
+              <li><MessageQuestion size="32" color="#FF8A65" />Preguntas Frecuentes</li>
             </ul>
           </div>
         </div>
@@ -111,13 +115,16 @@ const Footer = () => {
           <div className='layout-redes'>
             <div className="red">
               <img src={facebook} alt="" />
-              </div>
+            </div>
             <div className="red">
               <img src={instagram} alt="" />
-              </div>
+            </div>
             <div className="red">
-              <img src={whatsapp} alt="" />
-              </div>
+              <a href="https://wa.link/ozg120">
+                <img src={whatsapp} alt="" />
+              </a>
+
+            </div>
           </div>
         </div>
       </div>

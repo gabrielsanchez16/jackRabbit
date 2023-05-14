@@ -1,0 +1,38 @@
+.contain-card-tennis{
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.div-description {
+    padding: 1rem;
+}
+.div-description h3{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
+
+.img-div img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.p-color{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contain-buttom-buy {
+    padding: 1rem;
+}
+
+.contain-buttom-buy button {
+    background-color: #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+}

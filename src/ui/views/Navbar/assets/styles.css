@@ -21,10 +21,7 @@
 
  
 
-  .contain-navbar {
-    min-height: 70px;
-    z-index: 9;
-  }
+  
   
   .burger {
     position: fixed;

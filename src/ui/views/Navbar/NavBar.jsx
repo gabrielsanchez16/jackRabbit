@@ -1,7 +1,7 @@
 import React from 'react'
 import './assets/styles.css'
-import logo from '../../assets/logo.png'
-import shoes from '../../assets/zapatos.png'
+import logo from '../../assets/logo/logo.png'
+
 import {Link} from 'react-router-dom'
 const NavBar = () => {
 
@@ -29,7 +29,6 @@ const NavBar = () => {
                 </div>
                 <nav>
                     <button className="v"><Link to={'/about'}>Sobre Nosotros</Link></button>
-                    <button className="v">Catalogo</button>
                     <button className="v">Contactanos</button>
                 </nav>
             </nav>

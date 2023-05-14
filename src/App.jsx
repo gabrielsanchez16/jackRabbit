@@ -1,9 +1,8 @@
-import { useState } from 'react'
 import {  Routes, Route } from 'react-router-dom';
 import HomeRoute from './Routes/HomeRoute/HomeRoute'
 import AboutUsRoute from './Routes/AboutUsRoute/AboutUsRoute'
-import NavBar from './Components/Navbar/NavBar';
-import Footer from './Components/Footer/Footer';
+import NavBar from './ui/views/Navbar/NavBar';
+import Footer from '././ui/views/Footer/Footer';
 
 
 function App() {

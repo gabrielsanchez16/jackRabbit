@@ -1,0 +1,76 @@
+import React, { useRef } from 'react'
+import styled from 'styled-components'
+import { motion } from 'framer-motion'
+import { Grid } from '@mui/material'
+import './assets/styles.css'
+import Header from '../Header/Header'
+import Api from '../../viewModels/CardTennis/Api'
+import CardTennis from '../CardTennis/CardTennis'
+
+const Home = () => {
+
+  const { AllTennis, allAdidas, allNike } = Api()
+
+  const MotionConstraints = styled(motion.div)`
+    overflow-x: hidden;
+  `;
+
+  const MotionBox = styled(motion.div)`
+    width: 400vw;
+  `
+
+  const constraintsRef = useRef(null)
+
+
+  return (
+    <div>
+      <Header></Header>
+      <main className='content-home'>
+        <section className='section-adidas'>
+          <h2>Adidas</h2>
+          <div className='contenedor-cards'>
+            <MotionConstraints className='slider_container' ref={constraintsRef}>
+              <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
+                {
+                  allAdidas.map((item) => {
+                    return (
+                      <motion.div className='div_homeTurism' key={item.id}>
+                        <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
+                          <CardTennis item={item} />
+                        </Grid>
+                      </motion.div>
+                    )
+                  })
+                }
+              </MotionBox>
+            </MotionConstraints>
+          </div>
+
+        </section>
+        <section className='section-adidas'>
+          <h2>Nike</h2>
+          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+          <MotionConstraints className='slider_container' ref={constraintsRef}>
+              <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
+                {
+                  allNike.map((item) => {
+                    return (
+                      <motion.div className='div_homeTurism' key={item.id}>
+                        <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
+                          <CardTennis item={item} />
+                        </Grid>
+                      </motion.div>
+                    )
+                  })
+                }
+              </MotionBox>
+            </MotionConstraints>
+          </div>
+
+        </section>
+      </main>
+    </div>
+  )
+}
+
+export default Home

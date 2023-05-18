@@ -12,6 +12,14 @@ import vaporflyPink from '../../assets/img/vaporfly-pink.jpeg'
 import vaporflyYellow from '../../assets/img/vaporfly-tigger.jpeg'
 import trailBlack from '../../assets/img/nike-trail-black.jpeg'
 import trailBlue from '../../assets/img/nike-trail-blue.jpeg'
+import pegasusPink from '../../assets/img/pegasus-pink.jpeg'
+import pegasusBlack from '../../assets/img/pegasus-black.jpeg'
+import adidasProBlack from '../../assets/img/adios-pro-black.jpeg'
+import adidasProWhite from '../../assets/img/adios-pro-white.jpeg'
+import invincibleBlack from '../../assets/img/invincibleBlack.jpeg'
+import invincibleBlue from '../../assets/img/invincibleBlue.jpeg'
+import invincibleWhite from '../../assets/img/invincibleWhite.jpeg'
+
 
 const Api = () => {
 
@@ -128,6 +136,64 @@ const Api = () => {
             color:'#455D83',
             img: trailBlue
         },
+        {
+            id:12,
+            brand:'Nike',
+            model:'Pegasus', 
+            price:175000,
+            color:'#E9D3D6',
+            img: pegasusPink
+        },
+        {
+            id:13,
+            brand:'Nike',
+            model:'Pegasus', 
+            price:175000,
+            color:'#000000',
+            img: pegasusBlack
+        },
+        {
+            id:14,
+            brand:'Nike',
+            model:'Invincible FK3', 
+            price:220000,
+            color:'#000000',
+            img: invincibleBlack
+        },
+        {
+            id:15,
+            brand:'Nike',
+            model:'Invincible FK3', 
+            price:220000,
+            color:'#6EB0D4',
+            img: invincibleBlue
+        },
+        
+        {
+            id:16,
+            brand:'Adidas',
+            model:'Adios Pro', 
+            price:200000,
+            color:'#000000',
+            img: adidasProBlack
+        },
+        {
+            id:17,
+            brand:'Adidas',
+            model:'Adios Pro', 
+            price:200000,
+            color:'#A6A799',
+            img: adidasProWhite
+        },
+        {
+            id:18,
+            brand:'Nike',
+            model:'Invincible FK3', 
+            price:220000,
+            color:'#6EB0D4',
+            img: invincibleWhite
+        },
+
     ]
 
     const allAdidas = AllTennis.filter(item=>{

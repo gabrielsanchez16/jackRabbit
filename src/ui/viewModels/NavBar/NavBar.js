@@ -14,6 +14,7 @@ console.log(pathname)
 
 const [keyWord, setKeyWord] = useState('')
 
+
 const{AllTennis}=Api()
 
 const SearchShoes = (shoes)=>{
@@ -29,7 +30,8 @@ const SearchShoes = (shoes)=>{
 }
 
 const detailShoe = (info)=>{
-    navigate(`./shoes/${info.model}`,{state:{
+  setKeyWord('')
+    navigate(`/shoes/${info.model}`,{state:{
       brand:info.brand,
       model:info.model,
       img:info.img,
@@ -40,7 +42,9 @@ const detailShoe = (info)=>{
 
   return {
     SearchShoes,
-    detailShoe
+    detailShoe,
+    keyWord,
+    setKeyWord
   }
 }
 

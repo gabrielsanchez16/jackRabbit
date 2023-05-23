@@ -13,7 +13,7 @@ const NavBar = () => {
     const toggleMenu = () => document.body.classList.toggle("open");
 
 
-    const { SearchShoes, detailShoe } = useNavBar()
+    const { SearchShoes, detailShoe, keyWord,setKeyWord } = useNavBar()
 
     return (
         <div className='contain-navbar'>
@@ -32,10 +32,11 @@ const NavBar = () => {
                         className="search"
                         id="search"
                         placeholder='Buscar'
-                        onChange={e => { SearchShoes(e.target.value) }}
+                        value={keyWord}
+                        onChange={e => { SearchShoes(e.target.value), setKeyWord(e.target.value) }}
                     />
                     {
-                        resultados[0] !== 0 ?
+                        keyWord !== '' ?
                             (
                                 resultados.length === 0 ?
 

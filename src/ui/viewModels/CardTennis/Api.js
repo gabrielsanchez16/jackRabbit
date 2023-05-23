@@ -73,7 +73,7 @@ const Api = () => {
             img: bostonBlue
         },
         {
-            id:5,
+            id:7,
             brand:'Adidas',
             model:'Boston 10', 
             price:185000,
@@ -81,7 +81,7 @@ const Api = () => {
             img: bostonPink
         },
         {
-            id:6,
+            id:8,
             brand:'Nike',
             model:'Flyknit', 
             price:185000,
@@ -89,7 +89,7 @@ const Api = () => {
             img: flyknitBlack
         },
         {
-            id:7,
+            id:9,
             brand:'Nike',
             model:'Flyknit', 
             price:185000,
@@ -97,7 +97,7 @@ const Api = () => {
             img: flyknitOrange
         },
         {
-            id:8,
+            id:10,
             brand:'Nike',
             model:'Flyknit', 
             price:185000,
@@ -105,7 +105,7 @@ const Api = () => {
             img: flyknitGreen
         },
         {
-            id:9,
+            id:11,
             brand:'Nike',
             model:'Vaporfly', 
             price:190000,
@@ -113,7 +113,7 @@ const Api = () => {
             img: vaporflyPink
         },
         {
-            id:10,
+            id:12,
             brand:'Nike',
             model:'vaporfly', 
             price:190000,
@@ -121,7 +121,7 @@ const Api = () => {
             img: vaporflyYellow
         },
         {
-            id:11,
+            id:13,
             brand:'Nike',
             model:'Trail', 
             price:175000,
@@ -129,7 +129,7 @@ const Api = () => {
             img: trailBlack
         },
         {
-            id:11,
+            id:14,
             brand:'Nike',
             model:'Trail', 
             price:175000,
@@ -137,7 +137,7 @@ const Api = () => {
             img: trailBlue
         },
         {
-            id:12,
+            id:15,
             brand:'Nike',
             model:'Pegasus', 
             price:175000,
@@ -145,7 +145,7 @@ const Api = () => {
             img: pegasusPink
         },
         {
-            id:13,
+            id:16,
             brand:'Nike',
             model:'Pegasus', 
             price:175000,
@@ -153,7 +153,7 @@ const Api = () => {
             img: pegasusBlack
         },
         {
-            id:14,
+            id:17,
             brand:'Nike',
             model:'Invincible FK3', 
             price:220000,
@@ -161,7 +161,7 @@ const Api = () => {
             img: invincibleBlack
         },
         {
-            id:15,
+            id:18,
             brand:'Nike',
             model:'Invincible FK3', 
             price:220000,
@@ -170,7 +170,7 @@ const Api = () => {
         },
         
         {
-            id:16,
+            id:19,
             brand:'Adidas',
             model:'Adios Pro', 
             price:200000,
@@ -178,7 +178,7 @@ const Api = () => {
             img: adidasProBlack
         },
         {
-            id:17,
+            id:20,
             brand:'Adidas',
             model:'Adios Pro', 
             price:200000,
@@ -186,7 +186,7 @@ const Api = () => {
             img: adidasProWhite
         },
         {
-            id:18,
+            id:21,
             brand:'Nike',
             model:'Invincible FK3', 
             price:220000,

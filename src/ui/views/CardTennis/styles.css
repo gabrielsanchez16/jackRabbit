@@ -2,6 +2,12 @@
     background-color: black;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
+    transition: .6s ease-in-out;
+}
+
+.contain-card-tennis:hover{
+    transform: scale(1.05);
 }
 
 .div-description {
@@ -29,10 +35,15 @@
 }
 
 .contain-buttom-buy button {
-    background-color: #222222;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
     padding: 1rem;
+    border: 2px solid white;
     width: 100%;
+    transition: .6s ease-in-out;
+}
+
+.contain-buttom-buy button:hover{
+    transform: scale(1.07);
 }

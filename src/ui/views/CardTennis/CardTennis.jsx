@@ -1,12 +1,14 @@
 import React from 'react'
 import './styles.css'
 import useCardTennis from '../../viewModels/CardTennis/CardTennis'
+import NavBar from '../../viewModels/NavBar/NavBar'
 
 const CardTennis = ({ item }) => {
   const { formatoPesos } = useCardTennis()
+  const {detailShoe} = NavBar()
 
   return (
-    <div className='contain-card-tennis'>
+    <div className='contain-card-tennis' onClick={()=>{detailShoe(item)}}>
       <div className='img-div'>
         <img src={item.img} alt={item.model} />
       </div>
@@ -24,7 +26,7 @@ const CardTennis = ({ item }) => {
       </div>
       <div className='contain-buttom-buy'>
         <a href="https://wa.link/ozg120">
-          <button>
+          <button style={{backgroundColor:`${item.color}`}}>
             Comprar Tenis
           </button>
         </a>

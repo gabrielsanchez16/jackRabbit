@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './assets/styles.css'
 import logo from '../../assets/logo/logo.png'
+import { Link } from 'react-router-dom'
+import ResultSearchContext from '../../../Context/ResultSearch/ResultSearchProvider'
+import useNavBar from '../../viewModels/NavBar/NavBar'
 
-import {Link} from 'react-router-dom'
 const NavBar = () => {
 
+    const {
+        resultados
+    } = useContext(ResultSearchContext)
     const toggleMenu = () => document.body.classList.toggle("open");
 
+
+    const { SearchShoes, detailShoe } = useNavBar()
 
     return (
         <div className='contain-navbar'>
@@ -18,14 +25,53 @@ const NavBar = () => {
                     <Link to={'/'}><img src={logo} /></Link>
                 </div>
                 <div className="search">
-                    
+
                     <input
                         spellCheck="false"
                         type="text"
                         className="search"
                         id="search"
                         placeholder='Buscar'
+                        onChange={e => { SearchShoes(e.target.value) }}
                     />
+                    {
+                        resultados[0] !== 0 ?
+                            (
+                                resultados.length === 0 ?
+
+                                    <div className='result-search'>
+
+
+                                        <div className='content-result' >
+                                            <p>No se Encontraron Resultados</p>
+                                        </div>
+
+                                    </div>
+                                    :
+
+                                    <div className='result-search'>
+
+                                        {resultados.map(item => {
+                                            return (
+                                                <div className='content-result' key={item.id} onClick={()=>{detailShoe(item)}}>
+                                                    <div className="content-result-info">
+                                                        <h3>{item.brand}</h3><p> {item.model}</p>
+                                                    </div>
+                                                    <div className='content-result-img'>
+                                                        <img src={item.img} alt={item.model} />
+                                                    </div>
+                                                </div>
+                                            )
+                                        })}
+                                    </div>
+                            )
+
+                            :
+
+                            ''
+
+
+                    }
                 </div>
                 <nav>
                     <button className="v"><Link to={'/about'}>Sobre Nosotros</Link></button>

@@ -1,0 +1,68 @@
+.contain-detail-shoes{
+    margin-top: 6rem;
+}
+
+.card-view-shoe{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.route-detail-shoes{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.layout-shoe-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.main-info-layout{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info-layout div img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contain-btn-buy button{
+    width: 100%;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin: 2rem 0;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    border: 3px solid white;
+    font-size: 25px;
+}
+
+.contain-btn-buy button:hover{
+    background-color: #222222 !important;
+    transform: scale(1.04);
+} 
+
+
+.aside-form-layout{
+    width: 30%;
+}
+
+@media screen and (max-width:1100px) {
+    .card-view-shoe{
+        width: 99%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .contain-detail-shoes{
+        margin-top: 0px !important;
+    }
+}

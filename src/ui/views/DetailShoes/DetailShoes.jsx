@@ -71,7 +71,8 @@ const DetailShoes = () => {
             </div>
           </div>
           <aside className='aside-form-layout'>
-            <form name="contact" method="POST" netlify className='form-contact'>
+            <form name="contact" method="POST" className='form-contact'>
+            <input type="hidden" name="contact" value="contact" />
               <legend>Comunicate</legend>
               <div className='campo'>
                 <label htmlFor="">Nombre</label>
@@ -87,7 +88,7 @@ const DetailShoes = () => {
               </div>
               <div className='campo'>
                 <label htmlFor="">Descripcion</label>
-                <textarea name="Descripcion" id="Description" cols="30" rows="10"></textarea>
+                <textarea name="descripcion" id="Description" cols="30" rows="10"></textarea>
               </div>
               <button>Enviar</button>
             </form>

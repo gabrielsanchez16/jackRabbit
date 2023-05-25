@@ -63,7 +63,7 @@ const DetailShoes = () => {
 
             </div>
 
-            <div className='contain-btn-buy'>
+            <div className='contain-btn-buy' >
               <a href="https://wa.link/ozg120" target='blank'>
                 <button style={{ backgroundColor: `${state.color}` }}>Comprar</button>
               </a>
@@ -71,7 +71,7 @@ const DetailShoes = () => {
             </div>
           </div>
           <aside className='aside-form-layout'>
-            <form name="contact" method="POST" className='form-contact'>
+            <form name="contact" method="POST" netlify className='form-contact'>
             <input type="hidden" name="contact" value="contact" />
               <legend>Comunicate</legend>
               <div className='campo'>

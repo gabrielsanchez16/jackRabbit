@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Grid } from '@mui/material'
@@ -6,6 +6,7 @@ import { useLocation } from 'react-router-dom';
 import './styles.css'
 import Api from '../../viewModels/CardTennis/Api';
 import CardTennis from '../CardTennis/CardTennis';
+import { ArrowDown2 } from 'iconsax-react';
 
 
 const DetailShoes = () => {
@@ -23,7 +24,7 @@ const DetailShoes = () => {
 
   const constraintsRef = useRef(null)
 
-
+  const [dropdownDescription, setDropdownDescription] = useState(false)
 
   return (
     <div className='contain-detail-shoes'>
@@ -36,22 +37,65 @@ const DetailShoes = () => {
         </div>
         <div className='layout-shoe-detail'>
           <div className='main-info-layout'>
-              <div>
-                <img src={state.img} alt="" />
+            <div>
+              <img src={state.img} alt="" />
+            </div>
+            <h2 className='title-tennis-detail'>{state.brand} {state.model}</h2>
+            <div>
+              <p>Peso: {state.weight}</p>
+            </div>
+            <div className='dropdown-button-detail' onClick={() => setDropdownDescription(!dropdownDescription)}>
+              <div className='contain-button-detail'>
+                <h4>Descripcion</h4>
+                <span>
+                  <ArrowDown2
+                    size="32"
+                    color="#ffffff"
+                  />
+                </span>
               </div>
-              <h2>{state.brand} {state.model}</h2>
+              {
+                dropdownDescription &&
+                <div className='contain-info-description'>
+                  <p>{state.description}</p>
+                </div>
+              }
 
-              <div className='contain-btn-buy'>
-                <button style={{backgroundColor:`${state.color}`}}>Comprar</button>
-              </div>
+            </div>
+
+            <div className='contain-btn-buy'>
+              <a href="https://wa.link/ozg120" target='blank'>
+                <button style={{ backgroundColor: `${state.color}` }}>Comprar</button>
+              </a>
+
+            </div>
           </div>
           <aside className='aside-form-layout'>
-              <h3>form</h3>
+            <form action="" className='form-contact'>
+              <legend>Comunicate</legend>
+              <div className='campo'>
+                <label htmlFor="">Nombre</label>
+                <input type="text" placeholder='Tu Nombre' />
+              </div>
+              <div className='campo'>
+                <label htmlFor="">Asunto</label>
+                <input type="text" placeholder='Motivo del contacto' />
+              </div>
+              <div className='campo'>
+                <label htmlFor="">Telefono</label>
+                <input type="text" placeholder='Tu Telefono' />
+              </div>
+              <div className='campo'>
+                <label htmlFor="">Descripcion</label>
+                <textarea name="description" id="Description" cols="30" rows="10"></textarea>
+              </div>
+              <button>Enviar</button>
+            </form>
           </aside>
         </div>
-        <div>
+        <div className='contain-recommend'>
 
-          <h2 style={{marginTop:"2rem"}}>Recomendaciones</h2>
+          <h2 style={{ marginTop: "2rem", fontFamily: 'Sedgwick Ave Display, cursive' }}>Recomendaciones</h2>
           <MotionConstraints className='slider_container' ref={constraintsRef}>
             <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
               {

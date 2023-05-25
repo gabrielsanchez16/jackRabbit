@@ -79,8 +79,8 @@ const NavBar = () => {
                     }
                 </div>
                 <nav>
-                    <button className="v"><Link to={'/about'}>Sobre Nosotros</Link></button>
-                    <button className="v">Contactanos</button>
+                    <button className="v" onClick={toggleMenu}><Link to={'/about'}>Sobre Nosotros</Link></button>
+                    <button className="v" onClick={toggleMenu}>Contactanos</button>
                 </nav>
             </nav >
         </div >

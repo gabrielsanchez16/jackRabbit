@@ -102,11 +102,11 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="https://wa.link/ozg120">
-                  <Whatsapp size="32" color="#FF8A65" /> Escribenos
+                  <Whatsapp size="32" color="#b8cb9b" /> Escribenos
                 </a>
               </li>
-              <li><CallCalling size="32" color="#FF8A65" />Llamanos</li>
-              <li><MessageQuestion size="32" color="#FF8A65" />Preguntas Frecuentes</li>
+              <li><CallCalling size="32" color="#b8cb9b" /><a href="tel:3174623685" >Llamanos</a></li>
+              <li><MessageQuestion size="32" color="#b8cb9b" />Preguntas Frecuentes</li>
             </ul>
           </div>
         </div>
@@ -114,13 +114,19 @@ const Footer = () => {
           <h3>Redes</h3>
           <div className='layout-redes'>
             <div className="red">
-              <img src={facebook} alt="" />
+              <a href="https://www.facebook.com/profile.php?id=100092566165741&mibextid=ZbWKwL" target='blank'>
+                <img src={facebook} alt="" />
+              </a>
+
             </div>
             <div className="red">
-              <img src={instagram} alt="" />
+              <a href="https://instagram.com/jack_run09?igshid=MzNlNGNkZWQ4Mg==" target='blank'>
+                <img src={instagram} alt="" />
+              </a>
+
             </div>
             <div className="red">
-              <a href="https://wa.link/ozg120">
+              <a href="https://wa.link/ozg120" target='blank'>
                 <img src={whatsapp} alt="" />
               </a>
 

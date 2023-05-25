@@ -6,11 +6,9 @@ import {  useNavigate,useLocation } from 'react-router-dom';
 const NavBar = () => {
 
 
-const {pathname} =  useLocation()
+const {pathname,state} =  useLocation()
 const {changeValue} = useContext(ResultSearchContext)
 const navigate = useNavigate();
-
-console.log(pathname)
 
 const [keyWord, setKeyWord] = useState('')
 
@@ -29,12 +27,15 @@ const SearchShoes = (shoes)=>{
 }
 
 const detailShoe = (info)=>{
+  changeValue([0])
     navigate(`./shoes/${info.model}`,{state:{
       brand:info.brand,
       model:info.model,
       img:info.img,
       price:info.price,
-      color:info.color
+      color:info.color,
+      description:info.description,
+      weight:info.weight
     }})
 }
 

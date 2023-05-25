@@ -52,17 +52,122 @@
 
 .aside-form-layout{
     width: 30%;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.aside-form-layout form legend {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.aside-form-layout .campo{
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.aside-form-layout .campo input{
+    padding: 1rem;
+    border-radius: 20px;
+    border:none;
+}
+
+.aside-form-layout .campo label{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.aside-form-layout button{
+    width: 100%;
+    background-color: #222222;
+    border:none;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+
+.aside-form-layout button:hover{
+    background-color: #0f0f0f;
+    transform: scale(1.04);
+}
+
+
+.title-tennis-detail{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    margin: 2rem 0;
+}
+
+.dropdown-button-detail{
+    
+    padding: 1rem;
+    margin:1rem 0;
+    border-radius: 20px;
+    background-color: #222222;
+    border: 2px white solid;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.dropdown-button-detail:hover{
+    background-color: #0f0f0f;
+    transform: scale(1.02);
+}
+.contain-button-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.contain-info-description{
+    width: 100%;
+    text-align: justify;
 }
 
 @media screen and (max-width:1100px) {
     .card-view-shoe{
         width: 99%;
     }
+    .contain-recommend{
+        padding: 1rem;
+    }
     
 }
+
+@media screen and (max-width:830px){
+    .layout-shoe-detail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-info-layout{
+        width: 100%;
+        padding: 1rem;
+    }
+    .route-detail-shoes{
+        padding: 1rem;
+    }
+    .aside-form-layout{
+        width: 95%;
+    }
+}
+
 
 @media screen and (max-width:600px) {
     .contain-detail-shoes{
         margin-top: 0px !important;
+    }
+    .contain-btn-buy button {
+        font-size: 20px;
+        padding: 8px;
     }
 }

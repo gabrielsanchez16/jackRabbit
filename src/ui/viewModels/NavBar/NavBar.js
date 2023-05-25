@@ -28,13 +28,8 @@ const SearchShoes = (shoes)=>{
 }
 
 const detailShoe = (info)=>{
-<<<<<<< HEAD
   setKeyWord('')
     navigate(`/shoes/${info.model}`,{state:{
-=======
-  changeValue([0])
-    navigate(`./shoes/${info.model}`,{state:{
->>>>>>> develop
       brand:info.brand,
       model:info.model,
       img:info.img,

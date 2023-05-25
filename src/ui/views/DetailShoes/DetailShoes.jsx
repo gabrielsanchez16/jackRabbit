@@ -71,7 +71,7 @@ const DetailShoes = () => {
             </div>
           </div>
           <aside className='aside-form-layout'>
-            <form name="contact" method="POST" data-netlify="true" className='form-contact'>
+            <form name="contact" method="POST" netlify className='form-contact'>
               <legend>Comunicate</legend>
               <div className='campo'>
                 <label htmlFor="">Nombre</label>

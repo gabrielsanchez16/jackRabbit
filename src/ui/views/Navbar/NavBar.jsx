@@ -13,7 +13,7 @@ const NavBar = () => {
     const toggleMenu = () => document.body.classList.toggle("open");
 
 
-    const { SearchShoes, detailShoe, keyWord,setKeyWord } = useNavBar()
+    const { SearchShoes, detailShoe, keyWord, setKeyWord } = useNavBar()
 
     return (
         <div className='contain-navbar'>
@@ -54,7 +54,11 @@ const NavBar = () => {
 
                                         {resultados.map(item => {
                                             return (
-                                                <div className='content-result' key={item.id} onClick={()=>{detailShoe(item)}}>
+                                                <div className='content-result' key={item.id} onClick={() => {
+                                                    detailShoe(item)
+                                                    toggleMenu()
+                                                }
+                                                }>
                                                     <div className="content-result-info">
                                                         <h3>{item.brand}</h3><p> {item.model}</p>
                                                     </div>
@@ -78,8 +82,8 @@ const NavBar = () => {
                     <button className="v"><Link to={'/about'}>Sobre Nosotros</Link></button>
                     <button className="v">Contactanos</button>
                 </nav>
-            </nav>
-        </div>
+            </nav >
+        </div >
 
     )
 }

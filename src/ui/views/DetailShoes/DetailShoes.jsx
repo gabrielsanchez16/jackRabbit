@@ -71,23 +71,23 @@ const DetailShoes = () => {
             </div>
           </div>
           <aside className='aside-form-layout'>
-            <form action="" className='form-contact'>
+            <form name="contact" method="POST" data-netlify="true" className='form-contact'>
               <legend>Comunicate</legend>
               <div className='campo'>
                 <label htmlFor="">Nombre</label>
-                <input type="text" placeholder='Tu Nombre' />
+                <input type="text" name='nombre' placeholder='Tu Nombre' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Asunto</label>
-                <input type="text" placeholder='Motivo del contacto' />
+                <input type="text" name='asunto' placeholder='Motivo del contacto' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Telefono</label>
-                <input type="text" placeholder='Tu Telefono' />
+                <input type="text" name='telefono' placeholder='Tu Telefono' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Descripcion</label>
-                <textarea name="description" id="Description" cols="30" rows="10"></textarea>
+                <textarea name="Descripcion" id="Description" cols="30" rows="10"></textarea>
               </div>
               <button>Enviar</button>
             </form>

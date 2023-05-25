@@ -6,6 +6,7 @@ import header2 from './assets/img/header2.jpeg'
 import header3 from './assets/img/header3.webp'
 import header4 from './assets/img/header4.jpg'
 import header5 from './assets/img/header5.jpg'
+import header6 from './assets/img/header6.jpg'
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
       counter++;
-      if(counter > 5){
+      if(counter > 6){
         counter = 1;
       }
     }, 10000);
@@ -30,11 +31,12 @@ const Header = () => {
                     <input type="radio" name="radio-btn" id="radio3" />
                     <input type="radio" name="radio-btn" id="radio4" />
                     <input type="radio" name="radio-btn" id="radio5" />
+                    <input type="radio" name="radio-btn" id="radio6" />
 
                     {/* <!--radio buttons end-->
         <!--slide images start--> */}
                     <div className="slide first">
-                        <img src={header1} alt="" />
+                        <img src={header6} alt="" />
                     </div>
                     <div className="slide">
                         <img src={header2} alt="" />
@@ -48,6 +50,9 @@ const Header = () => {
                     <div className="slide">
                         <img src={header5} alt="" />
                     </div>
+                    <div className="slide">
+                        <img src={header1} alt="" />
+                    </div>
                     {/* <!--slide images end-->
         <!--automatic navigation start--> */}
                     <div className="navigation-auto">
@@ -56,6 +61,7 @@ const Header = () => {
                         <div className="auto-btn3"></div>
                         <div className="auto-btn4"></div>
                         <div className="auto-btn5"></div>
+                        <div className="auto-btn6"></div>
 
                     </div>
                     {/* <!--automatic navigation end--> */}
@@ -67,6 +73,7 @@ const Header = () => {
                     <label htmlFor="radio3" className="manual-btn"></label>
                     <label htmlFor="radio4" className="manual-btn"></label>
                     <label htmlFor="radio5" className="manual-btn"></label>
+                    <label htmlFor="radio6" className="manual-btn"></label>
 
                 </div>
                 {/* <!--manual navigation end--> */}

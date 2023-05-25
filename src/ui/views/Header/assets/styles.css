@@ -21,7 +21,7 @@
   }
   
   .slides{
-    width: 500%;
+    width: 600%;
     height: 500px;
     display: flex;
   }
@@ -89,6 +89,10 @@
   #radio5:checked ~ .first{
     margin-left: -80%;
   }
+
+  #radio6:checked ~ .first{
+    margin-left: -100%;
+  }
   
   /*css for automatic navigation*/
   
@@ -131,7 +135,10 @@
   #radio5:checked ~ .navigation-auto .auto-btn5{
     background: #b8cb9b;
   }
-        
+     
+  #radio6:checked ~ .navigation-auto .auto-btn6{
+    background: #b8cb9b;
+  }
 
 
 

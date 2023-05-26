@@ -34,6 +34,7 @@ const detailShoe = (info)=>{
       model:info.model,
       img:info.img,
       price:info.price,
+      size:info.size,
       color:info.color,
       description:info.description,
       weight:info.weight

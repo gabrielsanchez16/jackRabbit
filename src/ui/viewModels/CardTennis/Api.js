@@ -20,6 +20,18 @@ import invincibleBlack from '../../assets/img/invincibleBlack.jpeg'
 import invincibleBlue from '../../assets/img/invincibleBlue.jpeg'
 import invincibleWhite from '../../assets/img/invincibleWhite.jpeg'
 import zoomFly5Orange from '../../assets/img/zoom-fly5.jpeg'
+import hokaCarbonBlue from '../../assets/img/hoka-carbon-x3-blue.png'
+import hokaCarbonGreen from '../../assets/img/hoka-carbon-x3-green.png'
+import duramo from '../../assets/img/duramo-2.0.png'
+import vaporflyBlack from '../../assets/img/vaporfly-black.png'
+import ultraboostLight from '../../assets/img/ultrabostLight.png'
+import newBalanceFullCell from '../../assets/img/newBalance-fullCel.png'
+import asicsSimpleBlack from '../../assets/img/asics-simple-black.png'
+import asicsSimpleGreen from '../../assets/img/asics-simple-green.png'
+import asicsNovaBlastBlack from '../../assets/img/asics-novablast-black.png'
+import magicSpeedGreen from '../../assets/img/asics-magic-speed-green.png'
+import magicSpeedPurple from '../../assets/img/asics-magic-speed-purple.png'
+
 
 const Api = () => {
 
@@ -27,7 +39,8 @@ const Api = () => {
         {
             id:1,
             brand:'Adidas',
-            model:'Adistar Green', 
+            model:'Adistar Green',
+            size: 'eur40, eur41, eur42, eur43',
             price:180000,
             color:'#C4FD32',
             weight:'320gr',
@@ -38,6 +51,7 @@ const Api = () => {
             id:2,
             brand:'Adidas',
             model:'Adistar Orange', 
+            size: 'eur40, eur41, eur42, eur43',
             price:180000,
             color:'#FB5205',
             weight:'320gr',
@@ -48,6 +62,7 @@ const Api = () => {
             id:3,
             brand:'Adidas',
             model:'Adistar Pink', 
+            size: 'eur36, eur37, eur38, eur39',
             price:180000,
             color:'#FB7CB4',
             weight:'320gr',
@@ -58,6 +73,7 @@ const Api = () => {
             id:4,
             brand:'Adidas',
             model:'Boston 10', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#000000',
             weight:'335gr',
@@ -68,6 +84,7 @@ const Api = () => {
             id:5,
             brand:'Adidas',
             model:'Boston 10', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#340807',
             weight:'335gr',
@@ -78,6 +95,7 @@ const Api = () => {
             id:6,
             brand:'Adidas',
             model:'Boston 10', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#40B6C3',
             weight:'335gr',
@@ -88,6 +106,7 @@ const Api = () => {
             id:7,
             brand:'Adidas',
             model:'Boston 10', 
+            size: 'eur36, eur37, eur38, eur39',
             price:185000,
             color:'#DA9FA1',
             weight:'335gr',
@@ -98,6 +117,7 @@ const Api = () => {
             id:8,
             brand:'Nike',
             model:'Zoom Fly 4', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#000000',
             weight:'290gr',
@@ -108,6 +128,7 @@ const Api = () => {
             id:9,
             brand:'Nike',
             model:'Zoom Fly 4', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#E9842B',
             weight:'290gr',
@@ -118,6 +139,7 @@ const Api = () => {
             id:10,
             brand:'Nike',
             model:'Zoom Fly 4', 
+            size: 'eur40, eur41, eur42, eur43',
             price:185000,
             color:'#A8C782',
             weight:'290gr',
@@ -128,7 +150,8 @@ const Api = () => {
             id:11,
             brand:'Nike',
             model:'Vaporfly', 
-            price:190000,
+            size: 'eur36, eur37, eur38, eur39',
+            price:195900,
             color:'#B85C81',
             weight:'250gr',
             description:'Las Nike Vaporfly se erigen como uno de los lanzamientos más destacados de Nike Running para el 2021. Un modelo que ha hecho historia posicionándose como una de las opciones más rápidas de la firma norteamericana y cuya segunda actualización promete seguir cosechando innumerables éxitos. Puestas en escena con la figura del gran Eliud Kipchoge calzándose su versión original, estas actualizadas Vaporfly se renuevan para seguir presentándose como es opción fiable como zapatilla de competición para seguir superando objetivos y batiendo récords.',
@@ -138,7 +161,8 @@ const Api = () => {
             id:12,
             brand:'Nike',
             model:'vaporfly', 
-            price:190000,
+            size: 'eur40, eur41, eur42, eur43',
+            price:195900,
             color:'#F3C004',
             weight:'250gr',
             description:'Las Nike Vaporfly se erigen como uno de los lanzamientos más destacados de Nike Running para el 2021. Un modelo que ha hecho historia posicionándose como una de las opciones más rápidas de la firma norteamericana y cuya segunda actualización promete seguir cosechando innumerables éxitos. Puestas en escena con la figura del gran Eliud Kipchoge calzándose su versión original, estas actualizadas Vaporfly se renuevan para seguir presentándose como es opción fiable como zapatilla de competición para seguir superando objetivos y batiendo récords.',
@@ -148,6 +172,7 @@ const Api = () => {
             id:13,
             brand:'Nike',
             model:'Trail', 
+            size: 'eur40, eur41, eur42, eur43',
             price:175000,
             color:'#000000',
             weight:'330gr',
@@ -158,6 +183,7 @@ const Api = () => {
             id:14,
             brand:'Nike',
             model:'Trail', 
+            size: 'eur40, eur41, eur42, eur43',
             price:175000,
             color:'#455D83',
             weight:'330gr',
@@ -168,8 +194,9 @@ const Api = () => {
             id:15,
             brand:'Nike',
             model:'Pegasus 38', 
+            size: 'eur36, eur37, eur38, eur39',
             price:175000,
-            color:'#E9D3D6',
+            color:'rgb(210, 164, 170)',
             weight:'290gr',
             description:'Una zapatilla de entrenamiento para tiradas largas que te permite correr más rápido y mejorar tus tiempos. Los diseñadores de producto apostarán por repetir la implementación de la innovadora y exitosa espuma React, de longitud completa, que asegura una óptima amortiguación, pero también una respuesta más reactiva para disfrutar de transiciones más suaves en carrera. Asimismo, esa unidad Zoom Air en el antepié es capaz de aportar un mejor retorno de energía y más sensible, como ya sucedía en las Nike Pegasus 37',
             img: pegasusPink
@@ -178,6 +205,7 @@ const Api = () => {
             id:16,
             brand:'Nike',
             model:'Pegasus 38', 
+            size: 'eur40, eur41, eur42, eur43',
             price:175000,
             color:'#000000',
             weight:'290gr',
@@ -188,6 +216,7 @@ const Api = () => {
             id:17,
             brand:'Nike',
             model:'Invincible FK3', 
+            size: 'eur40, eur41, eur42, eur43',
             price:220000,
             color:'#000000',
             weight:'310gr',
@@ -198,6 +227,7 @@ const Api = () => {
             id:18,
             brand:'Nike',
             model:'Invincible FK3', 
+            size: 'eur40, eur41, eur42, eur43',
             price:220000,
             color:'#6EB0D4',
             weight:'310gr',
@@ -209,6 +239,7 @@ const Api = () => {
             id:19,
             brand:'Adidas',
             model:'Adios Pro', 
+            size: 'eur40, eur41, eur42, eur43',
             price:200000,
             color:'#000000',
             weight:'250gr',
@@ -219,6 +250,7 @@ const Api = () => {
             id:20,
             brand:'Adidas',
             model:'Adios Pro', 
+            size: 'eur40, eur41, eur42, eur43',
             price:200000,
             color:'#A6A799',
             weight:'250gr',
@@ -229,6 +261,7 @@ const Api = () => {
             id:21,
             brand:'Nike',
             model:'Invincible FK3', 
+            size: 'eur36, eur37, eur38, eur39',
             price:220000,
             color:'#6EB0D4',
             weight:'310gr',
@@ -239,13 +272,135 @@ const Api = () => {
             id:22,
             brand:'Nike',
             model:'Zoom fly 5', 
+            size: 'eur40, eur41, eur42, eur43',
             price:190000,
             color:'#E5311A',
             weight:'290gr',
             description:'La espuma ZoomX recién incorporada en la entresuela lleva un calzado confiable y respetado a otro nivel de rendimiento que no estaba presente en el Zoom Fly 4. Esta adición logra un sistema de amortiguación más ligero y con mayor respuesta inmediata. Aprovecha al máximo todas estas características versátiles que te ayudarán a correr de manera más rápida y cómoda, y a disfrutar más de tus carreras. El antepié y el talón cuentan con bases un poco más anchas para ofrecer una plataforma estable que te permite enfrentar las curvas y las carreras largas con mayor confianza.',
             img: zoomFly5Orange
-        }
+        },
+        {
+            id:23,
+            brand:'Hoka',
+            model:'Carbon-X', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#0A8CC6',
+            weight:'240gr',
+            description:'Unas zapatillas de competición orientadas a ofrecer una estabilidad y protección superiores en carrera. La ligereza de este modelo contrasta con su capacidad amortiguadora que, al mismo tiempo, favorece una conducción más dinámica y natural del pie. Sin lugar a duda, un modelo de la firma americana que incluye una innovadora estructura, capaz de ofrecer una respuesta de calidad ¡independientemente de la distancia e intensidad del reto!',
+            img: hokaCarbonBlue
+        },
+        {
+            id:24,
+            brand:'Hoka',
+            model:'Carbon-X', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#D5DE4E',
+            weight:'240gr',
+            description:'Unas zapatillas de competición orientadas a ofrecer una estabilidad y protección superiores en carrera. La ligereza de este modelo contrasta con su capacidad amortiguadora que, al mismo tiempo, favorece una conducción más dinámica y natural del pie. Sin lugar a duda, un modelo de la firma americana que incluye una innovadora estructura, capaz de ofrecer una respuesta de calidad ¡independientemente de la distancia e intensidad del reto!',
+            img: hokaCarbonGreen
+        },
+        {
+            id:25,
+            brand:'Asics',
+            model:'Magic Speed 2', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:250000,
+            color:'#AFEB79',
+            weight:'245gr',
+            description:'La zapatilla MAGIC SPEED™ 2 ofrece la energía que necesitas para avanzar hacia una nueva marca personal. Hemos actualizado el ajuste y el diseño para que la zapatilla sea más versátil durante cualquier tipo de carrera. La entresuela cuenta con una placa de carbono y TPU que impulsa el pie hacia adelante. Esto ayuda a crear un efecto de rebote más suave y propulsivo durante la fase de despegue de la zancada. La capa superior de la entresuela está reconstruida con amortiguación FF BLAST™ PLUS. Ayuda a que tu pisada se sienta aún más propulsiva, manteniendo la ligereza de la zapatilla.',
+            img: magicSpeedGreen
+        },
+        {
+            id:26,
+            brand:'Asics',
+            model:'Magic Speed 2', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:250000,
+            color:'#CE2BBD',
+            weight:'245gr',
+            description:'La zapatilla MAGIC SPEED™ 2 ofrece la energía que necesitas para avanzar hacia una nueva marca personal. Hemos actualizado el ajuste y el diseño para que la zapatilla sea más versátil durante cualquier tipo de carrera. La entresuela cuenta con una placa de carbono y TPU que impulsa el pie hacia adelante. Esto ayuda a crear un efecto de rebote más suave y propulsivo durante la fase de despegue de la zancada. La capa superior de la entresuela está reconstruida con amortiguación FF BLAST™ PLUS. Ayuda a que tu pisada se sienta aún más propulsiva, manteniendo la ligereza de la zapatilla.',
+            img: magicSpeedPurple
+        },
+        {
+            id:27,
+            brand:'Asics',
+            model:'NovaBlast', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:180000,
+            color:'#000000',
+            weight:'290gr',
+            description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
+            img: asicsNovaBlastBlack
+        },
+        {
+            id:28,
+            brand:'Asics',
+            model:'Asics Running', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:190000,
+            color:'#000000',
+            weight:'270gr',
+            description:'No hay Descripcion Disponible',
+            img: asicsSimpleBlack
+        },
+        {
+            id:29,
+            brand:'Asics',
+            model:'Asics Running', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:190000,
+            color:'#01B703',
+            weight:'270gr',
+            description:'No hay Descripcion Disponible',
+            img: asicsSimpleGreen
+        },
+        {
+            id:30,
+            brand:'Adidas',
+            model:'Ultraboost Light', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:220000,
+            color:'##FB5205',
+            weight:'295gr',
+            description:'Descubre una energía épica con los nuevos Ultraboost Light, los Ultraboost más ligeros que hemos creado. La magia está en la mediasuela Light BOOST, una nueva generación de adidas BOOST. Su exclusivo diseño molecular logra la espuma BOOST más ligera hasta la fecha y ostenta una huella de carbono 10% más baja que los modelos anteriores (para más información ver las Preguntas frecuentes a continuación). Con cientos de cápsulas BOOST llenas de energía y lo último en amortiguación y comodidad, algunos pies pueden tenerlo todo.',
+            img: ultraboostLight
+        },
 
+        {
+            id:31,
+            brand:'Adidas',
+            model:'Duramo 2.0', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:185900,
+            color:'#000000',
+            weight:'275gr',
+            description:'Mantén tus pies cómodos y tu estilo impecable en todo momento con estos tenis adidas. Úsalos con tus shorts de running favoritos para lucir un look deportivo y casual. El exterior de malla ayuda a mantener tus pies frescos, mientras que la amortiguación ultraliviana te ofrece soporte en cada uno de tus pasos. Hechos con una serie de materiales reciclados, su exterior incorpora al menos un 50 % de contenido reciclado. Este producto representa solo una de nuestras soluciones para acabar con los residuos plásticos.',
+            img: duramo
+        },
+        {
+            id:32,
+            brand:'Nike',
+            model:'Vaporfly', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195900,
+            color:'#000000',
+            weight:'250gr',
+            description:'Las Nike Vaporfly se erigen como uno de los lanzamientos más destacados de Nike Running para el 2021. Un modelo que ha hecho historia posicionándose como una de las opciones más rápidas de la firma norteamericana y cuya segunda actualización promete seguir cosechando innumerables éxitos. Puestas en escena con la figura del gran Eliud Kipchoge calzándose su versión original, estas actualizadas Vaporfly se renuevan para seguir presentándose como es opción fiable como zapatilla de competición para seguir superando objetivos y batiendo récords.',
+            img: vaporflyBlack
+        },
+        {
+            id:33,
+            brand:'New Balance',
+            model:'FuelCell Elite', 
+            size: 'eur36, eur37, eur38, eur39',
+            price:209900,
+            color:'#000000',
+            weight:'290gr',
+            description:'FuelCell Elite, son los tenis que te acompañan tanto para las competencias mas exigentes como para tus entrenamientos intensos y veloces. Esta calzado de correr cuenta con la mayor capacidad de respuesta creada hasta la fecha por New Balance, cuenta con nuestra EVA de tecnología y rendimiento FuelCell ® una de las mejores en rebote actualmente en el mercado, y esto lo complementa la placa en fibra de carbono ubicada en toda la longitud completa de la media suela, entregando un retorno de energía y la propulsión que todo atleta busca para mejorar sus tiempos. El talón proporciona soporte adicional y la espuma moldeada del cuello del pie, proporciona un ajuste increíble. La malla de ingeniería en la parte superior es transpirable para mayor comodidad, mientras que el logo de NB ubicado en la parte superior del antepie le añade un look atrevido y explosivo.',
+            img: newBalanceFullCell
+        },
     ]
 
     const allAdidas = AllTennis.filter(item=>{
@@ -256,10 +411,27 @@ const Api = () => {
         return item.brand === 'Nike'
     })
 
+    const allAsics = AllTennis.filter(item=>{
+        return item.brand === 'Asics'
+    })
+
+    const allNewBalance = AllTennis.filter(item=>{
+        return item.brand === 'New Balance'
+    })
+
+    const allHoka = AllTennis.filter(item=>{
+        return item.brand === 'Hoka'
+    })
+
+
+
   return {
     AllTennis,
     allAdidas,
-    allNike
+    allNike,
+    allAsics,
+    allNewBalance,
+    allHoka
   }
 }
 

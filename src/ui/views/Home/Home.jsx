@@ -9,7 +9,7 @@ import CardTennis from '../CardTennis/CardTennis'
 
 const Home = () => {
 
-  const { AllTennis, allAdidas, allNike } = Api()
+  const { AllTennis, allAdidas, allNike, allAsics, allHoka, allNewBalance } = Api()
 
   const MotionConstraints = styled(motion.div)`
     overflow-x: hidden;
@@ -54,6 +54,69 @@ const Home = () => {
               <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
                 {
                   allNike.map((item) => {
+                    return (
+                      <motion.div className='div_homeTurism' key={item.id}>
+                        <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
+                          <CardTennis item={item} />
+                        </Grid>
+                      </motion.div>
+                    )
+                  })
+                }
+              </MotionBox>
+            </MotionConstraints>
+          </div>
+
+        </section>
+        <section className='section-adidas'>
+          <h2>Asics</h2>
+          <div className='contenedor-cards'>
+            <MotionConstraints className='slider_container' ref={constraintsRef}>
+              <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
+                {
+                  allAsics.map((item) => {
+                    return (
+                      <motion.div className='div_homeTurism' key={item.id}>
+                        <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
+                          <CardTennis item={item} />
+                        </Grid>
+                      </motion.div>
+                    )
+                  })
+                }
+              </MotionBox>
+            </MotionConstraints>
+          </div>
+
+        </section>
+        <section className='section-adidas'>
+          <h2>Hoka</h2>
+          <div className='contenedor-cards'>
+            <MotionConstraints className='slider_container' ref={constraintsRef}>
+              <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
+                {
+                  allHoka.map((item) => {
+                    return (
+                      <motion.div className='div_homeTurism' key={item.id}>
+                        <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
+                          <CardTennis item={item} />
+                        </Grid>
+                      </motion.div>
+                    )
+                  })
+                }
+              </MotionBox>
+            </MotionConstraints>
+          </div>
+
+        </section>
+        <section className='section-adidas'>
+          <h2>New Balance</h2>
+          <div className='contenedor-cards'>
+            <MotionConstraints className='slider_container' ref={constraintsRef}>
+              <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
+                {
+                  allNewBalance.map((item) => {
                     return (
                       <motion.div className='div_homeTurism' key={item.id}>
                         <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>

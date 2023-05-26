@@ -2,7 +2,6 @@
     background-color: black;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    cursor: pointer;
     transition: .6s ease-in-out;
 }
 

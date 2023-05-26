@@ -25,11 +25,11 @@ const CardTennis = ({ item }) => {
 
       </div>
       <div className='contain-buttom-buy'>
-        <a href="https://wa.link/ozg120">
-          <button style={{backgroundColor:`${item.color}`}}>
-            Comprar Tenis
+        
+          <button onClick={()=>{detailShoe(item)}} style={{backgroundColor:`${item.color}`}}>
+            Ver Detalle
           </button>
-        </a>
+      
 
       </div>
 

@@ -42,6 +42,7 @@ const DetailShoes = () => {
             </div>
             <h2 className='title-tennis-detail'>{state.brand} {state.model}</h2>
             <div>
+              <p>Tallas: {state.size}</p>
               <p>Peso: {state.weight}</p>
             </div>
             <div className='dropdown-button-detail' onClick={() => setDropdownDescription(!dropdownDescription)}>

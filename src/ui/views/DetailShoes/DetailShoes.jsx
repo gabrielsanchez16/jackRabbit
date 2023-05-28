@@ -7,12 +7,23 @@ import './styles.css'
 import Api from '../../viewModels/CardTennis/Api';
 import CardTennis from '../CardTennis/CardTennis';
 import { ArrowDown2 } from 'iconsax-react';
-
+import DetailsShoes from '../../viewModels/detailsShoes/DetailsShoes';
+import UCardTennis from '../../viewModels/CardTennis/CardTennis';
 
 const DetailShoes = () => {
 
   const { AllTennis } = Api()
   const { state } = useLocation()
+  const {
+    enviado,
+    error,
+    handleSubmit,
+    setNombre,
+    setAsunto,
+    setTelefono,
+    setDescripcion } = DetailsShoes()
+
+  const {formatoPesos} = UCardTennis()
 
   const MotionConstraints = styled(motion.div)`
   overflow-x: hidden;
@@ -41,6 +52,7 @@ const DetailShoes = () => {
               <img src={state.img} alt="" />
             </div>
             <h2 className='title-tennis-detail'>{state.brand} {state.model}</h2>
+            <h2 className='title-tennis-detail-price' style={{marginBottom:"1rem"}}> <span>Precio:</span> {formatoPesos(state.price) }</h2>
             <div>
               <p>Tallas: {state.size}</p>
               <p>Peso: {state.weight}</p>
@@ -72,26 +84,47 @@ const DetailShoes = () => {
             </div>
           </div>
           <aside className='aside-form-layout'>
-            <form name="contact" method="POST" netlify className='form-contact'>
-            <input type="hidden" name="contact" value="contact" />
+            <form onSubmit={handleSubmit} className='form-contact'>
+              <input type="hidden" name="contact" value="contact" />
               <legend>Comunicate</legend>
               <div className='campo'>
                 <label htmlFor="">Nombre</label>
-                <input type="text" name='nombre' placeholder='Tu Nombre' />
+                <input type="text" name='nombre' onChange={(e) => setNombre(e.target.value)} id='nombre' placeholder='Tu Nombre' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Asunto</label>
-                <input type="text" name='asunto' placeholder='Motivo del contacto' />
+                <input type="text" name='asunto' onChange={(e) => setAsunto(e.target.value)} id='asunto' placeholder='Motivo del contacto' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Telefono</label>
-                <input type="text" name='telefono' placeholder='Tu Telefono' />
+                <input type="text" name='telefono' onChange={(e) => setTelefono(e.target.value)} id='telefono' placeholder='Tu Telefono' />
               </div>
               <div className='campo'>
                 <label htmlFor="">Descripcion</label>
-                <textarea name="descripcion" id="Description" cols="30" rows="10"></textarea>
+                <textarea name="descripcion" onChange={(e) => setDescripcion(e.target.value)} id="descripcion" cols="30" rows="10"></textarea>
               </div>
-              <button>Enviar</button>
+              {
+                error &&
+                <div className='error-send-message'>
+                  <p>Rellena todos los campos</p>
+                </div>
+              }
+              {
+                enviado &&
+                <>
+                  <div className='succes-email'>
+                    <p>Se ha enviado correctamente</p>
+                  </div>
+                  <div>
+                    <p className='text-agradecimiento'>
+                      En unas horas nos pondremos en contacto contigo gracias por preferirnos
+                    </p>
+                  </div>
+                </>
+
+              }
+
+              <input className='send-form' type='submit' value={"enviar"} />
             </form>
           </aside>
         </div>

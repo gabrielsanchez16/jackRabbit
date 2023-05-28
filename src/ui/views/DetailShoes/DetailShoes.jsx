@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState,useEffect } from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Grid } from '@mui/material'
@@ -13,7 +13,7 @@ import UCardTennis from '../../viewModels/CardTennis/CardTennis';
 const DetailShoes = () => {
 
   const { AllTennis } = Api()
-  const { state } = useLocation()
+  const { state, pathname} = useLocation()
   const {
     enviado,
     error,
@@ -36,6 +36,11 @@ const DetailShoes = () => {
   const constraintsRef = useRef(null)
 
   const [dropdownDescription, setDropdownDescription] = useState(false)
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, [pathname]);
 
   return (
     <div className='contain-detail-shoes'>

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Grid } from '@mui/material'
@@ -6,8 +6,11 @@ import './assets/styles.css'
 import Header from '../Header/Header'
 import Api from '../../viewModels/CardTennis/Api'
 import CardTennis from '../CardTennis/CardTennis'
+import { useLocation } from 'react-router-dom'
 
 const Home = () => {
+
+  const {pathname} = useLocation()
 
   const { AllTennis, allAdidas, allNike, allAsics, allHoka, allNewBalance } = Api()
 
@@ -21,6 +24,9 @@ const Home = () => {
 
   const constraintsRef = useRef(null)
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, [pathname]);
 
   return (
     <div>

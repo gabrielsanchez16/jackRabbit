@@ -31,7 +31,17 @@ import asicsSimpleGreen from '../../assets/img/asics-simple-green.png'
 import asicsNovaBlastBlack from '../../assets/img/asics-novablast-black.png'
 import magicSpeedGreen from '../../assets/img/asics-magic-speed-green.png'
 import magicSpeedPurple from '../../assets/img/asics-magic-speed-purple.png'
-
+import fuelCellPink from '../../assets/img/fuelCellPink.jpeg'
+import fuelCellBlack from '../../assets/img/fuelCellBlack.png'
+import CarbonXWhite from '../../assets/img/CarbonX-White.png'
+import CarbonXBlack from '../../assets/img/CarbonX-Black.jpeg'
+import OnCloudMonsterGrey from '../../assets/img/OnCloudMonster-gray.png'
+import OnCloudMonsterWhite from '../../assets/img/OnCloudMonster-white.png'
+import AsicsKinsei from '../../assets/img/AsicsGelNimbus24.jpeg'
+import AsicsGelNimbus24 from '../../assets/img/AsicsKinsei.jpeg'
+import InvincibleRun2 from '../../assets/img/InvincibleRun2.jpeg'
+import goretexRed from '../../assets/img/goretexRed.png'
+import ZoomFly4Pink from '../../assets/img/ZoomFly4Pink.png'
 
 const Api = () => {
 
@@ -41,7 +51,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Adistar Green',
             size: 'eur40, eur41, eur42, eur43',
-            price:180000,
+            price:185000,
             color:'#C4FD32',
             weight:'320gr',
             description:'Tenis para carreras de fondo inspirados en la idea del movimiento perpetuo y probados en más de 4,500 km. Adistar combina una plataforma de espuma REPETITOR suave y ligera con REPETITOR +, una espuma más firme, para crear una mediasuela de doble densidad. La mediasuela de EVA reciclada 15% más firme en el talón protege y ayuda a estabilizar cualquier impacto en el talón. La propulsión hacia el frente se ve mejorada por la geometría de balancín, así como por una caída general de 6mm del talón a la punta. Aterrizajes suaves e impulsos energizados con un calzado diseñado para llegar más lejos.',
@@ -52,7 +62,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Adistar Orange', 
             size: 'eur40, eur41, eur42, eur43',
-            price:180000,
+            price:185000,
             color:'#FB5205',
             weight:'320gr',
             description:'Tenis para carreras de fondo inspirados en la idea del movimiento perpetuo y probados en más de 4,500 km. Adistar combina una plataforma de espuma REPETITOR suave y ligera con REPETITOR +, una espuma más firme, para crear una mediasuela de doble densidad. La mediasuela de EVA reciclada 15% más firme en el talón protege y ayuda a estabilizar cualquier impacto en el talón. La propulsión hacia el frente se ve mejorada por la geometría de balancín, así como por una caída general de 6mm del talón a la punta. Aterrizajes suaves e impulsos energizados con un calzado diseñado para llegar más lejos.',
@@ -63,7 +73,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Adistar Pink', 
             size: 'eur36, eur37, eur38, eur39',
-            price:180000,
+            price:185000,
             color:'#FB7CB4',
             weight:'320gr',
             description:'Tenis para carreras de fondo inspirados en la idea del movimiento perpetuo y probados en más de 4,500 km. Adistar combina una plataforma de espuma REPETITOR suave y ligera con REPETITOR +, una espuma más firme, para crear una mediasuela de doble densidad. La mediasuela de EVA reciclada 15% más firme en el talón protege y ayuda a estabilizar cualquier impacto en el talón. La propulsión hacia el frente se ve mejorada por la geometría de balancín, así como por una caída general de 6mm del talón a la punta. Aterrizajes suaves e impulsos energizados con un calzado diseñado para llegar más lejos.',
@@ -74,7 +84,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Boston 10', 
             size: 'eur40, eur41, eur42, eur43',
-            price:185000,
+            price:195000,
             color:'#000000',
             weight:'335gr',
             description:'Por salud. Para tener más claridad mental. Para alcanzar tu próxima marca personal. No importa la razón por la que corres, los tenis Adizero Boston 10 te ayudan a lograr tu versión más rápida. Con más amortiguación que el calzado para maratones promedio, la mediasuela combina Lightstrike con Lightstrike Pro. El resultado es una pisada ultrarreceptiva que te brinda velocidad en tus carreras ',
@@ -85,7 +95,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Boston 10', 
             size: 'eur40, eur41, eur42, eur43',
-            price:185000,
+            price:195000,
             color:'#340807',
             weight:'335gr',
             description:'Por salud. Para tener más claridad mental. Para alcanzar tu próxima marca personal. No importa la razón por la que corres, los tenis Adizero Boston 10 te ayudan a lograr tu versión más rápida. Con más amortiguación que el calzado para maratones promedio, la mediasuela combina Lightstrike con Lightstrike Pro. El resultado es una pisada ultrarreceptiva que te brinda velocidad en tus carreras ',
@@ -96,7 +106,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Boston 10', 
             size: 'eur40, eur41, eur42, eur43',
-            price:185000,
+            price:195000,
             color:'#40B6C3',
             weight:'335gr',
             description:'Por salud. Para tener más claridad mental. Para alcanzar tu próxima marca personal. No importa la razón por la que corres, los tenis Adizero Boston 10 te ayudan a lograr tu versión más rápida. Con más amortiguación que el calzado para maratones promedio, la mediasuela combina Lightstrike con Lightstrike Pro. El resultado es una pisada ultrarreceptiva que te brinda velocidad en tus carreras ',
@@ -107,7 +117,7 @@ const Api = () => {
             brand:'Adidas',
             model:'Boston 10', 
             size: 'eur36, eur37, eur38, eur39',
-            price:185000,
+            price:195000,
             color:'#DA9FA1',
             weight:'335gr',
             description:'Por salud. Para tener más claridad mental. Para alcanzar tu próxima marca personal. No importa la razón por la que corres, los tenis Adizero Boston 10 te ayudan a lograr tu versión más rápida. Con más amortiguación que el calzado para maratones promedio, la mediasuela combina Lightstrike con Lightstrike Pro. El resultado es una pisada ultrarreceptiva que te brinda velocidad en tus carreras ',
@@ -173,7 +183,7 @@ const Api = () => {
             brand:'Nike',
             model:'Trail', 
             size: 'eur40, eur41, eur42, eur43',
-            price:175000,
+            price:185000,
             color:'#000000',
             weight:'330gr',
             description:'No hay descripcion disponible',
@@ -184,7 +194,7 @@ const Api = () => {
             brand:'Nike',
             model:'Trail', 
             size: 'eur40, eur41, eur42, eur43',
-            price:175000,
+            price:185000,
             color:'#455D83',
             weight:'330gr',
             description:'No hay descripcion disponible',
@@ -195,7 +205,7 @@ const Api = () => {
             brand:'Nike',
             model:'Pegasus 38', 
             size: 'eur36, eur37, eur38, eur39',
-            price:175000,
+            price:180000,
             color:'rgb(210, 164, 170)',
             weight:'290gr',
             description:'Una zapatilla de entrenamiento para tiradas largas que te permite correr más rápido y mejorar tus tiempos. Los diseñadores de producto apostarán por repetir la implementación de la innovadora y exitosa espuma React, de longitud completa, que asegura una óptima amortiguación, pero también una respuesta más reactiva para disfrutar de transiciones más suaves en carrera. Asimismo, esa unidad Zoom Air en el antepié es capaz de aportar un mejor retorno de energía y más sensible, como ya sucedía en las Nike Pegasus 37',
@@ -306,7 +316,7 @@ const Api = () => {
             brand:'Asics',
             model:'Magic Speed 2', 
             size: 'eur40, eur41, eur42, eur43',
-            price:250000,
+            price:220000,
             color:'#AFEB79',
             weight:'245gr',
             description:'La zapatilla MAGIC SPEED™ 2 ofrece la energía que necesitas para avanzar hacia una nueva marca personal. Hemos actualizado el ajuste y el diseño para que la zapatilla sea más versátil durante cualquier tipo de carrera. La entresuela cuenta con una placa de carbono y TPU que impulsa el pie hacia adelante. Esto ayuda a crear un efecto de rebote más suave y propulsivo durante la fase de despegue de la zancada. La capa superior de la entresuela está reconstruida con amortiguación FF BLAST™ PLUS. Ayuda a que tu pisada se sienta aún más propulsiva, manteniendo la ligereza de la zapatilla.',
@@ -317,7 +327,7 @@ const Api = () => {
             brand:'Asics',
             model:'Magic Speed 2', 
             size: 'eur40, eur41, eur42, eur43',
-            price:250000,
+            price:220000,
             color:'#CE2BBD',
             weight:'245gr',
             description:'La zapatilla MAGIC SPEED™ 2 ofrece la energía que necesitas para avanzar hacia una nueva marca personal. Hemos actualizado el ajuste y el diseño para que la zapatilla sea más versátil durante cualquier tipo de carrera. La entresuela cuenta con una placa de carbono y TPU que impulsa el pie hacia adelante. Esto ayuda a crear un efecto de rebote más suave y propulsivo durante la fase de despegue de la zancada. La capa superior de la entresuela está reconstruida con amortiguación FF BLAST™ PLUS. Ayuda a que tu pisada se sienta aún más propulsiva, manteniendo la ligereza de la zapatilla.',
@@ -328,7 +338,7 @@ const Api = () => {
             brand:'Asics',
             model:'NovaBlast', 
             size: 'eur40, eur41, eur42, eur43',
-            price:180000,
+            price:195000,
             color:'#000000',
             weight:'290gr',
             description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
@@ -339,7 +349,7 @@ const Api = () => {
             brand:'Asics',
             model:'Asics Running', 
             size: 'eur40, eur41, eur42, eur43',
-            price:190000,
+            price:200000,
             color:'#000000',
             weight:'270gr',
             description:'No hay Descripcion Disponible',
@@ -350,7 +360,7 @@ const Api = () => {
             brand:'Asics',
             model:'Asics Running', 
             size: 'eur40, eur41, eur42, eur43',
-            price:190000,
+            price:200000,
             color:'#01B703',
             weight:'270gr',
             description:'No hay Descripcion Disponible',
@@ -396,11 +406,132 @@ const Api = () => {
             model:'FuelCell Elite', 
             size: 'eur36, eur37, eur38, eur39',
             price:209900,
-            color:'#000000',
+            color:'#91C2C9',
             weight:'290gr',
             description:'FuelCell Elite, son los tenis que te acompañan tanto para las competencias mas exigentes como para tus entrenamientos intensos y veloces. Esta calzado de correr cuenta con la mayor capacidad de respuesta creada hasta la fecha por New Balance, cuenta con nuestra EVA de tecnología y rendimiento FuelCell ® una de las mejores en rebote actualmente en el mercado, y esto lo complementa la placa en fibra de carbono ubicada en toda la longitud completa de la media suela, entregando un retorno de energía y la propulsión que todo atleta busca para mejorar sus tiempos. El talón proporciona soporte adicional y la espuma moldeada del cuello del pie, proporciona un ajuste increíble. La malla de ingeniería en la parte superior es transpirable para mayor comodidad, mientras que el logo de NB ubicado en la parte superior del antepie le añade un look atrevido y explosivo.',
             img: newBalanceFullCell
         },
+        {
+            id:34,
+            brand:'New Balance',
+            model:'FuelCell Elite', 
+            size: 'eur36, eur37, eur38, eur39',
+            price:209900,
+            color:'#D04D91',
+            weight:'290gr',
+            description:'FuelCell Elite, son los tenis que te acompañan tanto para las competencias mas exigentes como para tus entrenamientos intensos y veloces. Esta calzado de correr cuenta con la mayor capacidad de respuesta creada hasta la fecha por New Balance, cuenta con nuestra EVA de tecnología y rendimiento FuelCell ® una de las mejores en rebote actualmente en el mercado, y esto lo complementa la placa en fibra de carbono ubicada en toda la longitud completa de la media suela, entregando un retorno de energía y la propulsión que todo atleta busca para mejorar sus tiempos. El talón proporciona soporte adicional y la espuma moldeada del cuello del pie, proporciona un ajuste increíble. La malla de ingeniería en la parte superior es transpirable para mayor comodidad, mientras que el logo de NB ubicado en la parte superior del antepie le añade un look atrevido y explosivo.',
+            img: fuelCellPink
+        },
+        {
+            id:35,
+            brand:'New Balance',
+            model:'FuelCell Elite', 
+            size: 'eur36, eur37, eur38, eur39',
+            price:209900,
+            color:'#000000',
+            weight:'290gr',
+            description:'FuelCell Elite, son los tenis que te acompañan tanto para las competencias mas exigentes como para tus entrenamientos intensos y veloces. Esta calzado de correr cuenta con la mayor capacidad de respuesta creada hasta la fecha por New Balance, cuenta con nuestra EVA de tecnología y rendimiento FuelCell ® una de las mejores en rebote actualmente en el mercado, y esto lo complementa la placa en fibra de carbono ubicada en toda la longitud completa de la media suela, entregando un retorno de energía y la propulsión que todo atleta busca para mejorar sus tiempos. El talón proporciona soporte adicional y la espuma moldeada del cuello del pie, proporciona un ajuste increíble. La malla de ingeniería en la parte superior es transpirable para mayor comodidad, mientras que el logo de NB ubicado en la parte superior del antepie le añade un look atrevido y explosivo.',
+            img: fuelCellBlack
+        },
+        {
+            id:36,
+            brand:'Hoka',
+            model:'Carbon-X', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#6CADAA',
+            weight:'240gr',
+            description:'Unas zapatillas de competición orientadas a ofrecer una estabilidad y protección superiores en carrera. La ligereza de este modelo contrasta con su capacidad amortiguadora que, al mismo tiempo, favorece una conducción más dinámica y natural del pie. Sin lugar a duda, un modelo de la firma americana que incluye una innovadora estructura, capaz de ofrecer una respuesta de calidad ¡independientemente de la distancia e intensidad del reto!',
+            img: CarbonXWhite
+        },
+        {
+            id:37,
+            brand:'Hoka',
+            model:'Carbon-X', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#000000',
+            weight:'240gr',
+            description:'Unas zapatillas de competición orientadas a ofrecer una estabilidad y protección superiores en carrera. La ligereza de este modelo contrasta con su capacidad amortiguadora que, al mismo tiempo, favorece una conducción más dinámica y natural del pie. Sin lugar a duda, un modelo de la firma americana que incluye una innovadora estructura, capaz de ofrecer una respuesta de calidad ¡independientemente de la distancia e intensidad del reto!',
+            img: CarbonXBlack
+        },
+        {
+            id:38,
+            brand:'OnCloud',
+            model:'Cloud Monster', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:205000,
+            color:'#74797D',
+            weight:'290gr',
+            description:'Las On Cloudmonster llegan revolucionando la estética de las zapatillas de running de la firma suiza. Un estilo completamente nuevo que le aporta toques modernos y llamativos a esta zapatilla de entrenamiento. Se trata de un modelo nuevo, un auténtico monstruo para runners de pisada neutra y que quieran recorrer desde distancias medias hasta las más largas. Además, entre sus prestaciones más destacadas incluye máxima amortiguación que te permitirá correr con mayor comodidad sobre el asfalto. ',
+            img: OnCloudMonsterWhite
+        },
+        {
+            id:39,
+            brand:'OnCloud',
+            model:'Cloud Monster', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:205000,
+            color:'#737D75',
+            weight:'290gr',
+            description:'Las On Cloudmonster llegan revolucionando la estética de las zapatillas de running de la firma suiza. Un estilo completamente nuevo que le aporta toques modernos y llamativos a esta zapatilla de entrenamiento. Se trata de un modelo nuevo, un auténtico monstruo para runners de pisada neutra y que quieran recorrer desde distancias medias hasta las más largas. Además, entre sus prestaciones más destacadas incluye máxima amortiguación que te permitirá correr con mayor comodidad sobre el asfalto. ',
+            img: OnCloudMonsterGrey
+        },
+        {
+            id:40,
+            brand:'Asics',
+            model:'Kinsei', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#D2EFD9',
+            weight:'300gr',
+            description:'Las zapatillas GEL-KINSEI™ Blast están diseñadas para corredores de fondo que buscan una pisada suave. Mantienen tu mente y cuerpo energizados para lograr tus objetivos de entrenamiento. Un arreglo de tecnología GEL™ y amortiguación FF BLAST™ crea un paso suave pero receptivo. Después de entrar en la fase de aterrizaje, el zapato te impulsa hacia adelante con una transición suave. La forma de la entresuela está inspirada en la curvilínea espada katana de un samurái. Con una placa de Pebax en el centro, esta característica redirige tu movimiento hacia adelante y te da una sensación de velocidad mientras corres.',
+            img: AsicsKinsei
+        },
+        {
+            id:41,
+            brand:'Asics',
+            model:'Gel Nimbus 24', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:205000,
+            color:'#D5D6DA',
+            weight:'280gr',
+            description:'Nuestra 24ª versión de las GEL-NIMBUS™ sigue avanzando dentro de su línea ofreciendo a los corredores de larga distancia una sujeción y comodidad mejorada. Las GEL-NIMBUS 24 proporcionan una excelente absorción de impactos y suavidad a los corredores, así como más compresión en el talón gracias a su suave unidad de tecnología de amortiguación GEL™ y sus líneas de diseño contorneadas. La estabilidad mejorada garantiza una pisada más equilibrada que se complementa con transiciones más fluidas.',
+            img: AsicsGelNimbus24
+        },
+        {
+            id:42,
+            brand:'Nike',
+            model:'Invincible Run 2', 
+            size: 'eur38 ,eur39, eur40, eur41, eur42, eur43',
+            price:195000,
+            color:'#000000',
+            weight:'280gr',
+            description:'Las zapatillas de running que presenta la marca americana están siempre a la vanguardia en cuanto a materiales y tecnología, siendo estas Nike ZoomX Invincible Run Flyknit 2 el fiel reflejo de una zapatilla bien hecha, por lo que como se dice, para qué tocar algo que funciona. Se trata de un modelo con una amortiguación exquisita, la cual va a satisfacer las necesidades de aquellos runners que busquen una zapatilla cómoda y con un toque de reactividad, ideal para todo tipo de entrenos, pero sobre todo, para rodar largo y tranquilo.',
+            img: InvincibleRun2
+        },
+        {
+            id:43,
+            brand:'Nike',
+            model:'Goretex', 
+            size: 'eur38 ,eur39, eur40, eur41, eur42, eur43',
+            price:200000,
+            color:'#884355',
+            weight:'330gr',
+            description:'Las Nike Pegasus Trail 2 GORE-TEX han sido diseñadas para conquistar las rutas de trail más exigentes y hacerle frente a las condiciones climáticas más adversas. La versión impermeable de las exitosas Pegasus Trail 2 de Nike Running, ha sido optimizada para adaptarse a las rutas de trail más exigentes y garantizar una protección superior frente a la humedad y el frío; protagonistas durante la época invernal.',
+            img: goretexRed
+        },
+        {
+            id:44,
+            brand:'Nike',
+            model:'Zoom Fly 4', 
+            size: 'eur37, eur38, eur39, eur40, eur41, eur42, eur43',
+            price:185000,
+            color:'#EE5758',
+            weight:'290gr',
+            description:'esta cuarta edición de las Nike Zoom Fly presenta como principal novedad el rediseño total de su corte superior. Los desarrolladores de producto de la marca de Oregón han apostado por sustituir el tejido VaporWeave transparente por una malla técnica de ingeniería con tejido Flyknit. Este cambio en la parte superior supone una sensación de mayor suave y confort, pero también de máxima transpirabilidad. Además, como valor añadido, este recurso de la tecnología Flyknit implementa todo ese entramado de fibras más ligeras y resistentes, y que se hacen notar en estas Nike Zoom Fly 4 con una mayor grado de soporte en la zona del mediopié',
+            img: ZoomFly4Pink
+        }
     ]
 
     const allAdidas = AllTennis.filter(item=>{
@@ -423,6 +554,10 @@ const Api = () => {
         return item.brand === 'Hoka'
     })
 
+    const allOnCloud = AllTennis.filter(item=>{
+        return item.brand === 'OnCloud'
+    })
+
 
 
   return {
@@ -431,7 +566,8 @@ const Api = () => {
     allNike,
     allAsics,
     allNewBalance,
-    allHoka
+    allHoka,
+    allOnCloud
   }
 }
 

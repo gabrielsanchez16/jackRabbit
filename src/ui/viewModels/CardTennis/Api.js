@@ -338,7 +338,7 @@ const Api = () => {
             brand:'Asics',
             model:'NovaBlast', 
             size: 'eur40, eur41, eur42, eur43',
-            price:195000,
+            price:200000,
             color:'#000000',
             weight:'290gr',
             description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',

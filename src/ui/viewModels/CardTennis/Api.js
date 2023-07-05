@@ -42,6 +42,10 @@ import AsicsGelNimbus24 from '../../assets/img/AsicsKinsei.jpeg'
 import InvincibleRun2 from '../../assets/img/InvincibleRun2.jpeg'
 import goretexRed from '../../assets/img/goretexRed.png'
 import ZoomFly4Pink from '../../assets/img/ZoomFly4Pink.png'
+import Vaporfly3green from '../../assets/img/nikevaporfly3gray.png'
+import Vaporfly3pink from '../../assets/img/nikevaporfly3pink.png'
+import NovablastGreen from '../../assets/img/novablastGreen.png'
+import NovablastBlackYellow from '../../assets/img/novablastBlackYellow.png'
 
 const Api = () => {
 
@@ -214,9 +218,9 @@ const Api = () => {
         {
             id:16,
             brand:'Nike',
-            model:'Pegasus 38', 
+            model:'Pegasus 39', 
             size: 'eur40, eur41, eur42, eur43',
-            price:175000,
+            price:185000,
             color:'#000000',
             weight:'290gr',
             description:'Una zapatilla de entrenamiento para tiradas largas que te permite correr más rápido y mejorar tus tiempos. Los diseñadores de producto apostarán por repetir la implementación de la innovadora y exitosa espuma React, de longitud completa, que asegura una óptima amortiguación, pero también una respuesta más reactiva para disfrutar de transiciones más suaves en carrera. Asimismo, esa unidad Zoom Air en el antepié es capaz de aportar un mejor retorno de energía y más sensible, como ya sucedía en las Nike Pegasus 37',
@@ -338,7 +342,7 @@ const Api = () => {
             brand:'Asics',
             model:'NovaBlast', 
             size: 'eur40, eur41, eur42, eur43',
-            price:200000,
+            price:210000,
             color:'#000000',
             weight:'290gr',
             description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
@@ -349,7 +353,7 @@ const Api = () => {
             brand:'Asics',
             model:'Asics Running', 
             size: 'eur40, eur41, eur42, eur43',
-            price:200000,
+            price:220000,
             color:'#000000',
             weight:'270gr',
             description:'No hay Descripcion Disponible',
@@ -360,7 +364,7 @@ const Api = () => {
             brand:'Asics',
             model:'Asics Running', 
             size: 'eur40, eur41, eur42, eur43',
-            price:200000,
+            price:220000,
             color:'#01B703',
             weight:'270gr',
             description:'No hay Descripcion Disponible',
@@ -531,7 +535,51 @@ const Api = () => {
             weight:'290gr',
             description:'esta cuarta edición de las Nike Zoom Fly presenta como principal novedad el rediseño total de su corte superior. Los desarrolladores de producto de la marca de Oregón han apostado por sustituir el tejido VaporWeave transparente por una malla técnica de ingeniería con tejido Flyknit. Este cambio en la parte superior supone una sensación de mayor suave y confort, pero también de máxima transpirabilidad. Además, como valor añadido, este recurso de la tecnología Flyknit implementa todo ese entramado de fibras más ligeras y resistentes, y que se hacen notar en estas Nike Zoom Fly 4 con una mayor grado de soporte en la zona del mediopié',
             img: ZoomFly4Pink
-        }
+        },
+        {
+            id:45,
+            brand:'Nike',
+            model:'VaporFly 3', 
+            size: 'eur37, eur38, eur39, eur40, eur41, eur42',
+            price:210000,
+            color:'#CF204F',
+            weight:'200gr',
+            description:'Atrápalas si puedes. Las Nike Vaporfly 3 se han diseñado para los perseguidores, los competidores y todos los corredores que marcan el ritmo y buscan la velocidad necesaria para dominar cualquier distancia. Hemos actualizado la parte inferior de estas superzapatillas para que puedas superar tus mejores registros personales en carreras de 10 000 km y maratones. Este modelo de competición versátil es perfecto tanto para corredores de élite y aficionados que ven la velocidad como el medio de sumar kilómetros y superar cotas que parecían inalcanzables.',
+            img: Vaporfly3pink
+        },
+        {
+            id:46,
+            brand:'Nike',
+            model:'VaporFly 3', 
+            size: 'eur37, eur38, eur39, eur40, eur41, eur42',
+            price:210000,
+            color:'#4E4950',
+            weight:'200gr',
+            description:'Atrápalas si puedes. Las Nike Vaporfly 3 se han diseñado para los perseguidores, los competidores y todos los corredores que marcan el ritmo y buscan la velocidad necesaria para dominar cualquier distancia. Hemos actualizado la parte inferior de estas superzapatillas para que puedas superar tus mejores registros personales en carreras de 10 000 km y maratones. Este modelo de competición versátil es perfecto tanto para corredores de élite y aficionados que ven la velocidad como el medio de sumar kilómetros y superar cotas que parecían inalcanzables.',
+            img: Vaporfly3green
+        },
+        {
+            id:47,
+            brand:'Asics',
+            model:'NovaBlast', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:210000,
+            color:'#D99705',
+            weight:'290gr',
+            description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
+            img: NovablastBlackYellow
+        },
+        {
+            id:48,
+            brand:'Asics',
+            model:'NovaBlast', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:210000,
+            color:'#A3C305',
+            weight:'290gr',
+            description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
+            img: NovablastGreen
+        },
     ]
 
     const allAdidas = AllTennis.filter(item=>{

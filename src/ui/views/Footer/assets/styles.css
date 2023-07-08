@@ -5,7 +5,8 @@
 
 .contain-footer {
     padding: 1rem;
-    background: #222222;
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%); 
     margin-top: 4rem;
 }
 .letters-credit{

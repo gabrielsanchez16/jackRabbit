@@ -1,0 +1,22 @@
+.contain-video{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contain-video video{
+    width: 80%;
+    height: auto;
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .contain-video{
+        margin-top: 2rem;
+    }
+
+    .contain-video video{
+        width: 100%;
+    }
+}

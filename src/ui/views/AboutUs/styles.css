@@ -1,6 +1,6 @@
 .content-aboutUs{
     width: 80%;
-    margin: 0 auto;
+    margin: 6rem auto;
 }
 
 .contain-description{
@@ -20,5 +20,11 @@
 @media screen and (max-width:1100px) {
     .content-aboutUs{
         width: 95%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .content-aboutUs{
+        margin: 3rem auto;
     }
 }

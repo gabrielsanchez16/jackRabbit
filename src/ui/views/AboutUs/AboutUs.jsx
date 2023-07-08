@@ -5,7 +5,6 @@ import './styles.css'
 const AboutUs = () => {
   return (
     <div>
-        <Header/>
         <main  className='content-aboutUs'>
           <section className='contain-description'>
             <h1>¿Quienes Somos?</h1><br />

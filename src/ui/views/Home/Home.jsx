@@ -73,9 +73,9 @@ const Home = () => {
             <MotionConstraints className='slider_container' ref={constraintsRef}>
               <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
                 {
-                  homePoster.map((item) => {
+                  homePoster.map((item,key) => {
                     return (
-                      <motion.div className='div_homeTurism' key={item.id}>
+                      <motion.div className='div_homeTurism' key={key}>
                         <Grid item xs={6} sm={6} md={3} lg={2} className='grid_cardHomeTurism'>
                           <div className="container" style={{cursor:'pointer'}}>
                             <div className="wrapper">

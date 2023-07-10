@@ -4,7 +4,6 @@ import antiDImportada3 from '../../assets/img/medias/antiD/antiD-importada3.jpg'
 import antiDJogo from '../../assets/img/medias/antiD/antiD-jogo.jpg'
 
 import bucaneras1 from '../../assets/img/medias/bucaneras/bucaneras1.jpg'
-import bucaneras2 from '../../assets/img/medias/bucaneras/bucaneras2.jpg'
 import bucaneras3 from '../../assets/img/medias/bucaneras/bucaneras3.jpg'
 import bucaneras4 from '../../assets/img/medias/bucaneras/bucaneras4.jpg'
 import bucaneras5 from '../../assets/img/medias/bucaneras/bucaneras5.jpg'
@@ -43,149 +42,196 @@ import bucaneras37 from '../../assets/img/medias/bucaneras/bucaneras37.jpg'
 import bucaneras38 from '../../assets/img/medias/bucaneras/bucaneras38.jpg'
 
 
-import CanilleraM29 from '../../assets/img/medias/canilleraMarca/canilleraM29.jpg'
-import compresion20 from '../../assets/img/medias/compresion/compresion20.jpg'
+import canilleraM1 from '../../assets/img/medias/canilleraMarca/canilleraM1.jpg'
+import canilleraM2 from '../../assets/img/medias/canilleraMarca/canilleraM2.jpg'
+import canilleraM3 from '../../assets/img/medias/canilleraMarca/canilleraM3.png'
+import canilleraM4 from '../../assets/img/medias/canilleraMarca/canilleraM4.jpg'
+import canilleraM5 from '../../assets/img/medias/canilleraMarca/canilleraM5.jpg'
+import canilleraM6 from '../../assets/img/medias/canilleraMarca/canilleraM6.jpg'
+import canilleraM7 from '../../assets/img/medias/canilleraMarca/canilleraM7.jpg'
+import canilleraM8 from '../../assets/img/medias/canilleraMarca/canilleraM8.jpg'
+import canilleraM9 from '../../assets/img/medias/canilleraMarca/canilleraM9.png'
+import canilleraM10 from '../../assets/img/medias/canilleraMarca/canilleraM10.jpg'
+import canilleraM11 from '../../assets/img/medias/canilleraMarca/canilleraM11.jpg'
+import canilleraM12 from '../../assets/img/medias/canilleraMarca/canilleraM12.jpg'
+import canilleraM13 from '../../assets/img/medias/canilleraMarca/canilleraM13.jpg'
+import canilleraM14 from '../../assets/img/medias/canilleraMarca/canilleraM14.jpg'
+import canilleraM15 from '../../assets/img/medias/canilleraMarca/canilleraM15.jpg'
+import canilleraM16 from '../../assets/img/medias/canilleraMarca/canilleraM16.jpg'
+import canilleraM17 from '../../assets/img/medias/canilleraMarca/canilleraM17.jpg'
+import canilleraM18 from '../../assets/img/medias/canilleraMarca/canilleraM18.jpg'
+import canilleraM19 from '../../assets/img/medias/canilleraMarca/canilleraM19.jpg'
+import canilleraM20 from '../../assets/img/medias/canilleraMarca/canilleraM20.jpg'
+import canilleraM21 from '../../assets/img/medias/canilleraMarca/canilleraM21.jpg'
+import canilleraM22 from '../../assets/img/medias/canilleraMarca/canilleraM22.jpg'
+import canilleraM24 from '../../assets/img/medias/canilleraMarca/canilleraM24.jpg'
+import canilleraM25 from '../../assets/img/medias/canilleraMarca/canilleraM25.jpg'
+import canilleraM26 from '../../assets/img/medias/canilleraMarca/canilleraM26.jpg'
+import canilleraM27 from '../../assets/img/medias/canilleraMarca/canilleraM27.jpg'
+import canilleraM28 from '../../assets/img/medias/canilleraMarca/canilleraM28.jpg'
+import canilleraM30 from '../../assets/img/medias/canilleraMarca/canilleraM30.jpg'
+import canilleraM31 from '../../assets/img/medias/canilleraMarca/canilleraM31.jpg'
+import canilleraM32 from '../../assets/img/medias/canilleraMarca/canilleraM32.jpg'
+import canilleraM33 from '../../assets/img/medias/canilleraMarca/canilleraM33.jpg'
+import canilleraM34 from '../../assets/img/medias/canilleraMarca/canilleraM34.jpg'
+import canilleraM35 from '../../assets/img/medias/canilleraMarca/canilleraM35.jpg'
+import canilleraM36 from '../../assets/img/medias/canilleraMarca/canilleraM36.jpg'
+import canilleraM37 from '../../assets/img/medias/canilleraMarca/canilleraM37.jpg'
+import canilleraM38 from '../../assets/img/medias/canilleraMarca/canilleraM38.jpg'
+import canilleraM39 from '../../assets/img/medias/canilleraMarca/canilleraM39.jpg'
+import canilleraM40 from '../../assets/img/medias/canilleraMarca/canilleraM40.jpg'
+import canilleraM41 from '../../assets/img/medias/canilleraMarca/canilleraM41.jpg'
+import canilleraM42 from '../../assets/img/medias/canilleraMarca/canilleraM42.jpg'
+import canilleraM43 from '../../assets/img/medias/canilleraMarca/canilleraM43.jpg'
+import canilleraM45 from '../../assets/img/medias/canilleraMarca/canilleraM45.jpg'
+import canilleraM46 from '../../assets/img/medias/canilleraMarca/canilleraM46.jpg'
+import canilleraM47 from '../../assets/img/medias/canilleraMarca/canilleraM47.jpg'
+import canilleraM48 from '../../assets/img/medias/canilleraMarca/canilleraM48.jpg'
+import canilleraM49 from '../../assets/img/medias/canilleraMarca/canilleraM49.jpg'
+import canilleraM50 from '../../assets/img/medias/canilleraMarca/canilleraM50.jpg'
+import canilleraM51 from '../../assets/img/medias/canilleraMarca/canilleraM51.jpg'
+import canilleraM52 from '../../assets/img/medias/canilleraMarca/canilleraM52.jpg'
+import canilleraM53 from '../../assets/img/medias/canilleraMarca/canilleraM53.jpg'
+import canilleraM54 from '../../assets/img/medias/canilleraMarca/canilleraM54.jpg'
+import canilleraM55 from '../../assets/img/medias/canilleraMarca/canilleraM55.jpg'
+import canilleraM56 from '../../assets/img/medias/canilleraMarca/canilleraM56.jpg'
+import canilleraM57 from '../../assets/img/medias/canilleraMarca/canilleraM57.jpg'
+import canilleraM58 from '../../assets/img/medias/canilleraMarca/canilleraM58.jpg'
+import canilleraM59 from '../../assets/img/medias/canilleraMarca/canilleraM59.jpg'
+import canilleraM60 from '../../assets/img/medias/canilleraMarca/canilleraM60.jpg'
+import canilleraM61 from '../../assets/img/medias/canilleraMarca/canilleraM61.jpg'
+import canilleraM62 from '../../assets/img/medias/canilleraMarca/canilleraM62.jpg'
+import canilleraM63 from '../../assets/img/medias/canilleraMarca/canilleraM63.jpg'
+import canilleraM64 from '../../assets/img/medias/canilleraMarca/canilleraM64.jpg'
+import canilleraM66 from '../../assets/img/medias/canilleraMarca/canilleraM66.jpg'
+
+import compresion19 from '../../assets/img/medias/compresion/compresion19.jpg'
 
 
 const ApiSocks = () => {
 
     const antiD = [
         {
-            id:1,
-            img:antiDImportada
+            img: antiDImportada
         },
         {
-            id:2,
-            img:antiDImportada2
+            img: antiDImportada2
         },
         {
-            id:3,
-            img:antiDImportada3
+            img: antiDImportada3
         },
         {
-            id:4,
-            img:antiDJogo
+            img: antiDJogo
         }
     ]
 
     const bucaneras = [
         {
-            id:1,
             img: bucaneras1
         },
         {
-            id:2,
-            img: bucaneras1
+            img: bucaneras3
         }, {
-            id:3,
-            img: bucaneras1
+            img: bucaneras4
         }, {
-            id:4,
-            img: bucaneras1
+            img: bucaneras5
         }, {
-            id:5,
-            img: bucaneras1
+            img: bucaneras6
         }, {
-            id:6,
-            img: bucaneras1
-        }, {
-            id:7,
             img: bucaneras7
         }, {
-            id:8,
             img: bucaneras8
-        }, 
+        },
         {
-            id:9,
             img: bucaneras9
         }, {
-            id:10,
+
             img: bucaneras10
         }, {
-            id:11,
+
             img: bucaneras11
         }, {
-            id:12,
+
             img: bucaneras12
         }, {
-            id:13,
+
             img: bucaneras13
         }, {
-            id:14,
+
             img: bucaneras14
         }, {
-            id:15,
+
             img: bucaneras15
         }, {
-            id:16,
+
             img: bucaneras16
         }, {
-            id:17,
+
             img: bucaneras17
         }, {
-            id:18,
+
             img: bucaneras18
         }, {
-            id:19,
+
             img: bucaneras19
         }, {
-            id:20,
+
             img: bucaneras20
         }, {
-            id:21,
+
             img: bucaneras21
         }, {
-            id:22,
+
             img: bucaneras22
         }, {
-            id:23,
+
             img: bucaneras23
         }, {
-            id:24,
+
             img: bucaneras24
         }, {
-            id:25,
+
             img: bucaneras25
         }, {
-            id:26,
+
             img: bucaneras26
         }, {
-            id:27,
+
             img: bucaneras27
         }, {
-            id:28,
+
             img: bucaneras28
         }, {
-            id:29,
+
             img: bucaneras29
         }, {
-            id:30,
+
             img: bucaneras30
         },
         {
-            id:31,
+
             img: bucaneras31
         },
         {
-            id:32,
+
             img: bucaneras32
         }, {
-            id:33,
+
             img: bucaneras33
         }, {
-            id:34,
+
             img: bucaneras34
         }, {
-            id:35,
+
             img: bucaneras35
         }, {
-            id:36,
+
             img: bucaneras36
         }, {
-            id:37,
+
             img: bucaneras37
         }, {
-            id:38,
+
             img: bucaneras38
         },
 
@@ -193,31 +239,216 @@ const ApiSocks = () => {
 
     const homePoster = [
         {
-            id:1,
-            img: bucaneras2,
+            img: bucaneras3,
             title: "Bucaneras"
         },
         {
-            id:2,
-            img: CanilleraM29,
+            img: canilleraM30,
             title: "Canilleras"
         },
         {
-            id:3,
             img: antiDImportada,
             title: "Antideslizantes"
         },
         {
-            id:4,
-            img: compresion20,
+            img: compresion19,
             title: "Compresion"
         },
     ]
-  return {
-    antiD,
-    bucaneras,
-    homePoster
-  }
+
+    const canillerasM = [
+        {
+            img: canilleraM1
+        },
+        {
+            img: canilleraM2
+        }, {
+            img: canilleraM3
+        }, {
+            img: canilleraM4
+        }, {
+            img: canilleraM5
+        }, {
+            img: canilleraM6
+        }, {
+            img: canilleraM7
+        }, {
+            img: canilleraM8
+        },
+        {
+            img: canilleraM9
+        }, {
+
+            img: canilleraM10
+        }, {
+
+            img: canilleraM11
+        }, {
+
+            img: canilleraM12
+        }, {
+
+            img: canilleraM13
+        }, {
+
+            img: canilleraM14
+        }, {
+
+            img: canilleraM15
+        }, {
+
+            img: canilleraM16
+        }, {
+
+            img: canilleraM17
+        }, {
+
+            img: canilleraM18
+        }, {
+
+            img: canilleraM19
+        }, {
+
+            img: canilleraM20
+        }, {
+
+            img: canilleraM21
+        }, {
+
+            img: canilleraM22
+        }, {
+
+            img: canilleraM24
+        }, {
+
+            img: canilleraM25
+        }, {
+
+            img: canilleraM26
+        }, {
+
+            img: canilleraM27
+        }, {
+
+            img: canilleraM28
+        },  {
+
+            img: canilleraM30
+        },
+        {
+
+            img: canilleraM31
+        },
+        {
+
+            img: canilleraM32
+        }, {
+
+            img: canilleraM33
+        }, {
+
+            img: canilleraM34
+        }, {
+
+            img: canilleraM35
+        }, {
+
+            img: canilleraM36
+        }, {
+
+            img: canilleraM37
+        }, {
+
+            img: canilleraM38
+        },
+        {
+
+            img: canilleraM39
+        },
+        {
+
+            img: canilleraM40
+        }, {
+
+            img: canilleraM41
+        }, {
+
+            img: canilleraM42
+        }, {
+
+            img: canilleraM43
+        }, {
+
+            img: canilleraM45
+        }, {
+
+            img: canilleraM46
+        },
+        {
+
+            img: canilleraM47
+        }, {
+
+            img: canilleraM48
+        }, {
+
+            img: canilleraM49
+        }, {
+
+            img: canilleraM50
+        }, {
+
+            img: canilleraM51
+        }, {
+
+            img: canilleraM52
+        }, {
+
+            img: canilleraM53
+        }, {
+
+            img: canilleraM54
+        }, {
+
+            img: canilleraM55
+        }, {
+
+            img: canilleraM56
+        }, {
+
+            img: canilleraM57
+        }, {
+
+            img: canilleraM58
+        }, {
+
+            img: canilleraM59
+        }, {
+
+            img: canilleraM60
+        }, {
+
+            img: canilleraM61
+        }, {
+
+            img: canilleraM62
+        }, {
+
+            img: canilleraM63
+        }, {
+
+            img: canilleraM64
+        },  {
+
+            img: canilleraM66
+        }
+    ]
+    return {
+        antiD,
+        bucaneras,
+        homePoster,
+        canillerasM
+    }
 }
 
 export default ApiSocks

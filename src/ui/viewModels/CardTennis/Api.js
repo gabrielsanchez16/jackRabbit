@@ -46,6 +46,7 @@ import Vaporfly3green from '../../assets/img/nikevaporfly3gray.png'
 import Vaporfly3pink from '../../assets/img/nikevaporfly3pink.png'
 import NovablastGreen from '../../assets/img/novablastGreen.png'
 import NovablastBlackYellow from '../../assets/img/novablastBlackYellow.png'
+import nikeZoom from '../../assets/img/nikeZoom.jpeg'
 
 const Api = () => {
 
@@ -580,6 +581,28 @@ const Api = () => {
             description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
             img: NovablastGreen
         },
+        {
+            id:49,
+            brand:'Asics',
+            model:'NovaBlast', 
+            size: 'eur40, eur41, eur42, eur43',
+            price:210000,
+            color:'#A3C305',
+            weight:'290gr',
+            description:'"Los NOVABLAST™ 3 están inspirados en las formas geométricas del origami. Además de hacer que el modelo sea aproximadamente 30 g más liviano que la versión anterior, también lo hicimos más cómodo. La construcción en la parte superior ayuda a mejorar el ajuste y reduce el movimiento de la lengüeta. Este componente reforzado tiene un diseño de talón que brinda soporte',
+            img: NovablastGreen
+        },
+        {
+            id:50,
+            brand:'Nike',
+            model:'Air Zoom', 
+            size: 'eur37, eur38, eur39, eur40',
+            price:190000,
+            color:'#6E7E8F',
+            weight:'290gr',
+            description:'Descripcion no disponible',
+            img: nikeZoom
+        }
     ]
 
     const allAdidas = AllTennis.filter(item=>{

@@ -7,6 +7,7 @@ import { ResultSearchProvider } from './Context/ResultSearch/ResultSearchProvide
 import DetailShoesRoute from './Routes/DetailShoesRoute/DetailShoesRoute';
 import ShoesRoute from './Routes/ShoesRoute/ShoesRoute';
 import SocksRoute from './Routes/SocksRoute/SocksRoute';
+import GallerySocks from './ui/views/Socks/gallerySocks/GallerySocks';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<AboutUsRoute />} />
           <Route path="/shoes" element={<ShoesRoute />} />
           <Route path="/socks" element={<SocksRoute />} />
+          <Route path="/socks/gallery" element={<GallerySocks />} />
           <Route path="/shoes/:id" element={<DetailShoesRoute />} />
 
         </Routes>

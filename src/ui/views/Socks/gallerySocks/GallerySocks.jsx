@@ -29,7 +29,13 @@ const GallerySocks = () => {
                 {
                     state.data.map((item, key) => {
                         return (
-                            <Suspense fallback={<CircularProgress size={25}/>}>
+                            <Suspense fallback={
+                                <div className='img-loader'>
+                                    <CircularProgress size={25}/>
+                                </div>
+                            
+                            
+                            }>
                                 <CardGallery img={item.img} id={key} key={key} setModalGallery={setModalGallery} setSelectedPhoto={setSelectedPhoto} />
                             </Suspense>
                             

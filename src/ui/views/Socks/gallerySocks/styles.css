@@ -19,6 +19,16 @@
     height: fit-content;
   }
 
+  .img-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(168, 168, 168);
+    height: 120px;
+  }
+
   .img-gallery:hover{
     transform: scale(1.049);
   }

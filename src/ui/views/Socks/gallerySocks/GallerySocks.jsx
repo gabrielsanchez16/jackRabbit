@@ -24,7 +24,7 @@ const GallerySocks = () => {
     return (
         <div className='section-gallery' >
             <h2>Galeria</h2>
-            <p>Haz click en la imagen para que la veas de cerca</p>
+            <p style={{fontSize:'12px'}}>Haz click en la imagen para que la veas de cerca</p>
             <div className="gallery">
                 {
                     state.data.map((item, key) => {

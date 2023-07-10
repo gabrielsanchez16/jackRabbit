@@ -3,7 +3,8 @@ import './styles.css'
 import { useLocation } from 'react-router-dom'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import CardGallery from './CardGallery/CardGallery';
+import { CircularProgress } from '@mui/material';
+const CardGallery = lazy(()=>import('./CardGallery/CardGallery'))
 
 
 
@@ -27,9 +28,10 @@ const GallerySocks = () => {
                 {
                     state.data.map((item, key) => {
                         return (
-                            <CardGallery img={item.img} id={key} key={key} setModalGallery={setModalGallery} setSelectedPhoto={setSelectedPhoto} />
-
-
+                            <Suspense fallback={<CircularProgress size={25}/>}>
+                                <CardGallery img={item.img} id={key} key={key} setModalGallery={setModalGallery} setSelectedPhoto={setSelectedPhoto} />
+                            </Suspense>
+                            
                         )
                     })
                 }

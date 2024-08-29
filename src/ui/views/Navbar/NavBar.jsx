@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './assets/styles.css'
-import logo from '../../assets/logo/logo.png'
+import logo from '../../assets/logo/speedstride.png'
 import { Link } from 'react-router-dom'
 import ResultSearchContext from '../../../Context/ResultSearch/ResultSearchProvider'
 import useNavBar from '../../viewModels/NavBar/NavBar'

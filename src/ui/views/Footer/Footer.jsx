@@ -102,11 +102,11 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="https://wa.link/ozg120">
-                  <Whatsapp size="32" color="#b8cb9b" /> Escribenos
+                  <Whatsapp size="32" color="#ffff" /> Escribenos
                 </a>
               </li>
-              <li><CallCalling size="32" color="#b8cb9b" /><a href="tel:3174623685" >Llamanos</a></li>
-              <li><MessageQuestion size="32" color="#b8cb9b" />Preguntas Frecuentes</li>
+              <li><CallCalling size="32" color="#ffff" /><a href="tel:3174623685" >Llamanos</a></li>
+              <li><MessageQuestion size="32" color="#ffff" />Preguntas Frecuentes</li>
             </ul>
           </div>
         </div>

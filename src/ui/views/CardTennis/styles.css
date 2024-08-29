@@ -1,15 +1,18 @@
 .contain-card-tennis{
-    background-color: black;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border: 1px solid var(--greyLight);
+    border-radius: 15px;
     transition: .6s ease-in-out;
     cursor: pointer;
     z-index: 999;
 }
 
+.contain-card-tennis h3, .contain-card-tennis p{
+    color: var(--bluePrimary);
+}
+
 .contain-card-tennis:hover{
     transform: scale(1.05);
-    background-color:#222222; 
+    background-color:var(--greyLight); 
 }
 
 .div-description {
@@ -45,11 +48,12 @@
     padding: 1rem;
     border: 2px solid white;
     width: 100%;
+    background-color: var(--bluePrimary);
     transition: .6s ease-in-out;
 }
 
 .contain-buttom-buy button:hover{
-    transform: scale(1.07);
+    transform: scale(1.01);
 }
 
 

@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 .section-adidas{
     padding: 1rem;
     width: 80%;
@@ -20,6 +17,7 @@
     margin-bottom: 1rem;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 35px;
+    color: var(--bluePrimary);
 }
 
 

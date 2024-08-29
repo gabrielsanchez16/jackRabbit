@@ -26,7 +26,7 @@ const CardTennis = ({ item }) => {
       </div>
       <div className='contain-buttom-buy'>
         
-          <button onClick={()=>{detailShoe(item)}} style={{backgroundColor:`${item.color}`}}>
+          <button onClick={()=>{detailShoe(item)}}>
             Ver Detalle
           </button>
       

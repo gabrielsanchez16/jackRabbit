@@ -67,8 +67,8 @@ const DetailShoes = () => {
                 <h4>Descripcion</h4>
                 <span>
                   <ArrowDown2
-                    size="32"
-                    color="#ffffff"
+                    size="30"
+                    color="var(--bluePrimary)"
                   />
                 </span>
               </div>

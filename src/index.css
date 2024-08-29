@@ -4,43 +4,35 @@
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
- 
   color: rgba(251, 251, 251, 0.87);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+
+  --greyLight: rgb(211, 211, 211);
+  --orangePrimary: rgb(255, 99, 71);
+  --bluePrimary:#1E3A5F;
+  --white:rgb(255, 255, 255);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
+  background-color: var(--white);
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
- 
-} */
 
 
 
-.div_homeTurism{
+.div_homeTurism {
   display: flex;
 }
 
@@ -50,7 +42,7 @@ body{
   display: flex;
   align-items: center;
   width: 100%;
-  
+
 }
 
 .slider_ {
@@ -89,6 +81,7 @@ body{
   .div_homeTurism {
     margin: 20px 8px !important;
   }
+
   /* .cardHomeTurism_media {
     width: 100%;
     height: 200px;

@@ -33,8 +33,8 @@ const Shoes = () => {
 
 
     return (
-        <div className=''>
-            <div className='section-adidas contain-video'>
+        <>
+            {/* <div className='section-adidas contain-video'>
 
                 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/hzk0neQFIfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
@@ -44,8 +44,8 @@ const Shoes = () => {
                 <video src={videoOffer} autoPlay loop>
 
                 </video>
-            </div>
-            <section className='section-adidas'>
+            </div> */}
+            <section style={{marginTop:"5rem"}} className='section-adidas'>
                 <h2>Adidas</h2>
                 <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
                     <MotionConstraints className='slider_container' ref={constraintsRef}>
@@ -171,7 +171,7 @@ const Shoes = () => {
                 </div>
 
             </section>
-        </div>
+        </>
     )
 }
 

@@ -14,7 +14,7 @@ const Home = () => {
   const { pathname } = useLocation()
   const navigate = useNavigate()
   const { AllTennis, allAdidas, allNike, allAsics, allHoka, allNewBalance, allOnCloud } = Api()
-  const {antiD,homePoster} = ApiSocks()
+  const { antiD, homePoster } = ApiSocks()
 
   const MotionConstraints = styled(motion.div)`
     overflow-x: hidden;
@@ -38,16 +38,9 @@ const Home = () => {
   return (
     <div >
       <Header></Header>
-
-      <div className='section-adidas'>
-        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/gF0rrpMH-Jo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-
-        </iframe>
-
-      </div>
       <main className='content-home magicpattern'>
         <section className='section-adidas'>
-          <h2 style={{ display: 'flex', justifyContent: 'space-between' }}>Tenis <span style={{ cursor: 'pointer' }} onClick={() => { navigatePage('/shoes') }}>Ver mas</span></h2>
+          <h2 style={{ display: 'flex', justifyContent: 'space-between' }}>Tenis <span style={{ cursor: 'pointer', textDecoration: "underline" }} onClick={() => { navigatePage('/shoes') }}>Ver todo</span></h2>
           <div className='contenedor-cards'>
             <MotionConstraints className='slider_container' ref={constraintsRef}>
               <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
@@ -67,8 +60,8 @@ const Home = () => {
           </div>
 
         </section>
-        <section className='section-adidas'>
-          <h2 style={{ display: 'flex', justifyContent: 'space-between' }}>Medias <span style={{ cursor: 'pointer' }} onClick={() => { navigatePage('/socks') }}>Ver mas</span></h2>
+        {/* <section className='section-adidas'>
+          <h2 style={{ display: 'flex', justifyContent: 'space-between' }}>Medias <span style={{ cursor: 'pointer',textDecoration:"underline" }} onClick={() => { navigatePage('/socks') }}>Ver todo</span></h2>
           <div className='contenedor-cards'>
             <MotionConstraints className='slider_container' ref={constraintsRef}>
               <MotionBox className='slider_' drag='x' dragConstraints={constraintsRef}  >
@@ -93,9 +86,16 @@ const Home = () => {
             </MotionConstraints>
           </div>
 
-        </section>
+        </section> */}
 
       </main>
+      <div className='section-adidas'>
+        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/gF0rrpMH-Jo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+
+        </iframe>
+
+      </div>
+
     </div>
   )
 }
